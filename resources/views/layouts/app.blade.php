@@ -34,6 +34,7 @@
                 <a href="{{ route('billings.index') }}" @class(['active' => request()->routeIs('billings.*')])><i class="bi bi-file-earmark-text"></i> Billing</a>
                 <a href="{{ route('payments.index') }}" @class(['active' => request()->routeIs('payments.*')])><i class="bi bi-cash-coin"></i> Payments</a>
                 <a href="{{ route('reports.index') }}" @class(['active' => request()->routeIs('reports.*', 'invoices.*')])><i class="bi bi-graph-up"></i> Reports</a>
+                <a href="{{ route('backups.index') }}" @class(['active' => request()->routeIs('backups.*')])><i class="bi bi-hdd"></i> Backups</a>
                 <hr class="text-secondary" />
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf

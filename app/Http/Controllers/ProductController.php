@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Product;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\View\View;
 
 class ProductController extends Controller
@@ -12,9 +13,10 @@ class ProductController extends Controller
     public function index(Request $request): View
     {
         $search = trim((string) $request->query('search', ''));
+        $op = DB::connection()->getDriverName() === 'pgsql' ? 'ilike' : 'like';
 
         $products = Product::query()
-            ->when($search !== '', fn ($query) => $query->where('name', 'like', "%{$search}%"))
+            ->when($search !== '', fn ($query) => $query->where("name", $op, "%{$search}%"))
             ->orderBy('name')
             ->get();
 

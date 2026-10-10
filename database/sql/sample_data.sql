@@ -1,13 +1,12 @@
--- BillingApp sample data (converted from the ASP.NET app's insert.sql to the Laravel schema).
+-- BillingApp sample data for PostgreSQL (converted from the ASP.NET app's insert.sql to the Laravel schema).
 -- Load with:  php artisan db:seed --class=SampleDataSeeder
 -- User 1 is the admin created by DatabaseSeeder; sample users start at id 2.
 
-SET FOREIGN_KEY_CHECKS = 0;
 
 -- ========================================================
--- 1. INSERT 100 SAMPLE ROWS INTO `customers`
+-- 1. INSERT 100 SAMPLE ROWS INTO "customers"
 -- ========================================================
-INSERT IGNORE INTO `customers` (`id`, `name`, `email`, `phone`, `address`, `created_at`) VALUES
+INSERT INTO "customers" ("id", "name", "email", "phone", "address", "created_at") VALUES
 (1, 'Customer 1', 'customer1@example.com', '555-0101', '101 Main St, Suite 1', '2026-01-01 10:00:00.000000'),
 (2, 'Customer 2', 'customer2@example.com', '555-0102', '102 Main St, Suite 2', '2026-01-01 10:05:00.000000'),
 (3, 'Customer 3', 'customer3@example.com', '555-0103', '103 Main St, Suite 3', '2026-01-01 10:10:00.000000'),
@@ -107,13 +106,13 @@ INSERT IGNORE INTO `customers` (`id`, `name`, `email`, `phone`, `address`, `crea
 (97, 'Customer 97', 'customer97@example.com', '555-0197', '197 Main St, Suite 97', '2026-01-01 18:00:00.000000'),
 (98, 'Customer 98', 'customer98@example.com', '555-0198', '198 Main St, Suite 98', '2026-01-01 18:05:00.000000'),
 (99, 'Customer 99', 'customer99@example.com', '555-0199', '199 Main St, Suite 99', '2026-01-01 18:10:00.000000'),
-(100, 'Customer 100', 'customer100@example.com', '555-0200', '200 Main St, Suite 100', '2026-01-01 18:15:00.000000');
+(100, 'Customer 100', 'customer100@example.com', '555-0200', '200 Main St, Suite 100', '2026-01-01 18:15:00.000000') ON CONFLICT DO NOTHING;
 
 
 -- ========================================================
--- 2. INSERT 100 SAMPLE ROWS INTO `products`
+-- 2. INSERT 100 SAMPLE ROWS INTO "products"
 -- ========================================================
-INSERT IGNORE INTO `products` (`id`, `name`, `description`, `price`, `stock`, `created_at`) VALUES
+INSERT INTO "products" ("id", "name", "description", "price", "stock", "created_at") VALUES
 (1, 'Product 1', 'Description for Product 1', 15.00, 100, '2026-01-01 09:00:00.000000'),
 (2, 'Product 2', 'Description for Product 2', 20.00, 95, '2026-01-01 09:01:00.000000'),
 (3, 'Product 3', 'Description for Product 3', 25.00, 90, '2026-01-01 09:02:00.000000'),
@@ -213,14 +212,14 @@ INSERT IGNORE INTO `products` (`id`, `name`, `description`, `price`, `stock`, `c
 (97, 'Product 97', 'Description for Product 97', 495.00, 20, '2026-01-01 10:36:00.000000'),
 (98, 'Product 98', 'Description for Product 98', 500.00, 15, '2026-01-01 10:37:00.000000'),
 (99, 'Product 99', 'Description for Product 99', 505.00, 10, '2026-01-01 10:38:00.000000'),
-(100, 'Product 100', 'Description for Product 100', 510.00, 5, '2026-01-01 10:39:00.000000');
+(100, 'Product 100', 'Description for Product 100', 510.00, 5, '2026-01-01 10:39:00.000000') ON CONFLICT DO NOTHING;
 
 
 -- ========================================================
--- 3. INSERT 100 SAMPLE ROWS INTO `users`
+-- 3. INSERT 100 SAMPLE ROWS INTO "users"
 -- ========================================================
 -- Note: User 1 is reserved for original 'admin' setup
-INSERT IGNORE INTO `users` (`id`, `username`, `password`, `role`) VALUES
+INSERT INTO "users" ("id", "username", "password", "role") VALUES
 (2, 'user2', '$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q', 'User'),
 (3, 'user3', '$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q', 'User'),
 (4, 'user4', '$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q', 'Manager'),
@@ -319,13 +318,13 @@ INSERT IGNORE INTO `users` (`id`, `username`, `password`, `role`) VALUES
 (97, 'user97', '$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q', 'User'),
 (98, 'user98', '$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q', 'Manager'),
 (99, 'user99', '$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q', 'User'),
-(100, 'user100', '$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q', 'User');
+(100, 'user100', '$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q', 'User') ON CONFLICT DO NOTHING;
 
 
 -- ========================================================
--- 4. INSERT 100 SAMPLE ROWS INTO `billings`
+-- 4. INSERT 100 SAMPLE ROWS INTO "billings"
 -- ========================================================
-INSERT IGNORE INTO `billings` (`id`, `invoice_no`, `customer_id`, `bill_date`, `total_amount`, `paid_amount`, `balance_amount`, `status`) VALUES
+INSERT INTO "billings" ("id", "invoice_no", "customer_id", "bill_date", "total_amount", "paid_amount", "balance_amount", "status") VALUES
 (1, 'INV-2026-0001', 1, '2026-01-02 08:00:00.000000', 100.00, 100.00, 0.00, 'Paid'),
 (2, 'INV-2026-0002', 2, '2026-01-02 08:30:00.000000', 150.00, 50.00, 100.00, 'Partial'),
 (3, 'INV-2026-0003', 3, '2026-01-02 09:00:00.000000', 200.00, 0.00, 200.00, 'Pending'),
@@ -425,13 +424,13 @@ INSERT IGNORE INTO `billings` (`id`, `invoice_no`, `customer_id`, `bill_date`, `
 (97, 'INV-2026-0097', 97, '2026-01-06 16:00:00.000000', 210.00, 210.00, 0.00, 'Paid'),
 (98, 'INV-2026-0098', 98, '2026-01-06 16:30:00.000000', 280.00, 0.00, 280.00, 'Pending'),
 (99, 'INV-2026-0099', 99, '2026-01-06 17:00:00.000000', 135.00, 135.00, 0.00, 'Paid'),
-(100, 'INV-2026-0100', 100, '2026-01-06 17:30:00.000000', 260.00, 120.00, 140.00, 'Partial');
+(100, 'INV-2026-0100', 100, '2026-01-06 17:30:00.000000', 260.00, 120.00, 140.00, 'Partial') ON CONFLICT DO NOTHING;
 
 
 -- ========================================================
--- 5. INSERT 100 SAMPLE ROWS INTO `billing_items`
+-- 5. INSERT 100 SAMPLE ROWS INTO "billing_items"
 -- ========================================================
-INSERT IGNORE INTO `billing_items` (`id`, `billing_id`, `product_id`, `quantity`, `unit_price`, `line_total`) VALUES
+INSERT INTO "billing_items" ("id", "billing_id", "product_id", "quantity", "unit_price", "line_total") VALUES
 (1, 1, 1, 2, 15.00, 30.00),
 (2, 1, 2, 1, 20.00, 20.00),
 (3, 2, 3, 2, 25.00, 50.00),
@@ -531,13 +530,13 @@ INSERT IGNORE INTO `billing_items` (`id`, `billing_id`, `product_id`, `quantity`
 (97, 49, 97, 2, 495.00, 990.00),
 (98, 49, 98, 1, 500.00, 500.00),
 (99, 50, 99, 2, 505.00, 1010.00),
-(100, 50, 100, 1, 510.00, 510.00);
+(100, 50, 100, 1, 510.00, 510.00) ON CONFLICT DO NOTHING;
 
 
 -- ========================================================
--- 6. INSERT 100 SAMPLE ROWS INTO `payments`
+-- 6. INSERT 100 SAMPLE ROWS INTO "payments"
 -- ========================================================
-INSERT IGNORE INTO `payments` (`id`, `billing_id`, `payment_date`, `amount`, `method`, `reference`) VALUES
+INSERT INTO "payments" ("id", "billing_id", "payment_date", "amount", "method", "reference") VALUES
 (1, 1, '2026-01-02 08:05:00.000000', 100.00, 'Credit Card', 'REF-CC-0001'),
 (2, 2, '2026-01-02 08:35:00.000000', 50.00, 'Cash', 'REF-CS-0002'),
 (3, 4, '2026-01-02 09:35:00.000000', 120.00, 'Bank Transfer', 'REF-BT-0003'),
@@ -637,6 +636,13 @@ INSERT IGNORE INTO `payments` (`id`, `billing_id`, `payment_date`, `amount`, `me
 (97, 5, '2026-01-08 12:00:00.000000', 90.00, 'Debit Card', 'REF-DC-0097'),
 (98, 9, '2026-01-08 12:30:00.000000', 55.00, 'Cash', 'REF-CS-0098'),
 (99, 12, '2026-01-08 13:00:00.000000', 70.00, 'Bank Transfer', 'REF-BT-0099'),
-(100, 14, '2026-01-08 13:30:00.000000', 65.00, 'Credit Card', 'REF-CC-0100');
+(100, 14, '2026-01-08 13:30:00.000000', 65.00, 'Credit Card', 'REF-CC-0100') ON CONFLICT DO NOTHING;
 
-SET FOREIGN_KEY_CHECKS = 1;
+
+-- Explicit ids were inserted, so move each identity sequence past the highest id.
+SELECT setval(pg_get_serial_sequence('customers', 'id'), (SELECT MAX(id) FROM customers));
+SELECT setval(pg_get_serial_sequence('products', 'id'), (SELECT MAX(id) FROM products));
+SELECT setval(pg_get_serial_sequence('users', 'id'), (SELECT MAX(id) FROM users));
+SELECT setval(pg_get_serial_sequence('billings', 'id'), (SELECT MAX(id) FROM billings));
+SELECT setval(pg_get_serial_sequence('billing_items', 'id'), (SELECT MAX(id) FROM billing_items));
+SELECT setval(pg_get_serial_sequence('payments', 'id'), (SELECT MAX(id) FROM payments));

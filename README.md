@@ -1,16 +1,20 @@
 # BillingApp (Laravel 11)
 
-Laravel 11 / PHP 8.3+ / MySQL 8.0 port of the ASP.NET Core 8 BillingApp:
+Laravel 11 / PHP 8.3+ / PostgreSQL port of the ASP.NET Core 8 BillingApp:
 customers, products, invoices with stock tracking, payments, dashboard,
 date-range sales report, and PDF invoices / reports.
 
 ## Requirements
 
-- PHP **8.3+** with `mbstring`, `openssl`, `pdo_mysql`, `xml`/`dom`, `ctype`, `fileinfo`, `tokenizer` (and `gd` is recommended for dompdf)
+- PHP **8.3+** with `mbstring`, `openssl`, `pdo_pgsql`, `xml`/`dom`, `ctype`, `fileinfo`, `tokenizer` (and `gd` is recommended for dompdf)
 - Composer 2
-- MySQL **8.0.33** (any 8.0.x works)
+- PostgreSQL 13+ (tested with 16)
 
 ## Setup
+
+> `composer.json` sets `audit.block-insecure = false` so Composer 2.9+ will install Laravel 11
+> (which no longer receives security fixes). Fine for local use; for production, move to Laravel 12:
+> `composer require "laravel/framework:^12.0" --no-update && composer update`.
 
 ```bash
 composer install
@@ -18,13 +22,13 @@ cp .env.example .env          # Windows: copy .env.example .env
 php artisan key:generate
 ```
 
-Create a **new** database (don't reuse the ASP.NET one - see note below):
+Create a database (psql or pgAdmin):
 
 ```sql
-CREATE DATABASE billing_laravel CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE billing_laravel;
 ```
 
-Adjust `DB_USERNAME` / `DB_PASSWORD` in `.env`, then:
+Set `DB_USERNAME` / `DB_PASSWORD` in `.env` (defaults: `postgres`, port 5432), then:
 
 ```bash
 php artisan migrate --seed          # tables + admin user (admin / admin123)
@@ -34,20 +38,35 @@ php artisan serve                   # http://localhost:8000
 
 Log in with **admin / admin123** and change the password afterwards.
 
-### Bringing over existing data (optional)
+If you get `could not find driver`, enable `extension=pdo_pgsql` and `extension=pgsql` in `php.ini`.
 
-If you already have data in the old `billingdb`, skip `--seed` / the sample seeder and run
-`database/sql/migrate_from_aspnet.sql` after `php artisan migrate`. Ids, amounts, invoice
-numbers and password hashes are copied as-is.
+### Fake data (Faker)
 
-> The old schema uses PascalCase tables (`Customers`, `BillingItems` ...). On Windows,
-> MySQL treats table names case-insensitively, so keep the Laravel schema in its own
-> database to avoid clashes with the old tables.
+```bash
+php artisan fake:data                                   # 30 customers, 40 products, 60 invoices + payments
+php artisan fake:data --customers=50 --products=60 --invoices=200
+php artisan db:seed --class=FakeDataSeeder              # same thing with the defaults
+```
+
+Invoices get consistent totals, balances and statuses (unpaid / partly paid / paid). Faker is a
+dev dependency, so `composer install` must not use `--no-dev`.
+
+### Backups
+
+- **Backups** page in the sidebar: back up now, download, delete.
+- CLI: `php artisan db:backup` writes a plain-SQL `pg_dump` file to `storage/app/backups`
+  and keeps the newest 14 (`BACKUP_KEEP`).
+- Runs nightly at 02:00 through the scheduler: keep `php artisan schedule:work` running, or add a
+  Task Scheduler / cron job that runs `php artisan schedule:run` every minute.
+- On Windows set `PG_DUMP_PATH` in `.env` to the full path of `pg_dump.exe`
+  (e.g. `C:\Program Files\PostgreSQL\16\bin\pg_dump.exe`); its version must not be older than your server.
+- Restore: `psql -U postgres -d billing_laravel -f storage/app/backups/<file>.sql`
+  (dumps use `--clean --if-exists`, so they can be restored over an existing database).
 
 ### Tests
 
 ```bash
-php artisan test        # uses in-memory SQLite (needs pdo_sqlite), never touches MySQL
+php artisan test        # uses in-memory SQLite (needs pdo_sqlite), never touches PostgreSQL
 ```
 
 ## What changed from the ASP.NET version
@@ -60,7 +79,7 @@ php artisan test        # uses in-memory SQLite (needs pdo_sqlite), never touche
 | Razor views / tag helpers | Blade views (same Bootstrap 5 layout) |
 | QuestPDF | `barryvdh/laravel-dompdf` (Blade templates in `resources/views/pdf`) |
 | `Controllers/*Controller.cs` | `app/Http/Controllers/*Controller.php`, routes in `routes/web.php` |
-| `appsettings.json` connection string | `.env` (`DB_*`) |
+| `appsettings.json` connection string (MySQL) | `.env` (`DB_*`) |
 | Admin seeded at startup | `DatabaseSeeder` |
 
 Columns follow Laravel conventions: `PascalCase` -> `snake_case` (`InvoiceNo` -> `invoice_no`),

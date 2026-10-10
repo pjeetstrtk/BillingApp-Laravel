@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\BackupController;
 use App\Http\Controllers\BillingController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\DashboardController;
@@ -47,4 +48,10 @@ Route::middleware('auth')->group(function () {
     Route::get('reports/pdf', [ReportController::class, 'downloadReport'])->name('reports.pdf');
     Route::get('billings/{billing}/invoice', [ReportController::class, 'invoice'])->name('invoices.show');
     Route::get('billings/{billing}/invoice/pdf', [ReportController::class, 'downloadInvoice'])->name('invoices.pdf');
+
+    // Database backups (pg_dump)
+    Route::get('backups', [BackupController::class, 'index'])->name('backups.index');
+    Route::post('backups', [BackupController::class, 'store'])->name('backups.store');
+    Route::get('backups/{file}', [BackupController::class, 'download'])->where('file', '[A-Za-z0-9._-]+\.sql')->name('backups.download');
+    Route::delete('backups/{file}', [BackupController::class, 'destroy'])->where('file', '[A-Za-z0-9._-]+\.sql')->name('backups.destroy');
 });
