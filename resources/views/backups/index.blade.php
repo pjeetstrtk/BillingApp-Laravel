@@ -40,7 +40,7 @@
 </div>
 
 <p class="text-muted small mt-3">
-    Plain SQL dumps made with <code>pg_dump</code>, stored in <code>storage/app/backups</code>; the newest {{ config('backup.keep') }} are kept.
-    Restore with <code>psql -U postgres -d billing_laravel -f &lt;file&gt;.sql</code>.
+    Stored in <code>storage/app/backups</code>; the newest {{ config('backup.keep') }} are kept.
+    Restore: <code>{{ $restoreHint }}</code>
 </p>
 @endsection

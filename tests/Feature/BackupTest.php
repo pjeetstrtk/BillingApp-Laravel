@@ -63,6 +63,7 @@ class BackupTest extends TestCase
         $this->actingAs($this->admin());
 
         $this->get('/backups/missing.sql')->assertNotFound();
+        $this->get('/backups/missing.sqlite')->assertNotFound();
         $this->get('/backups/secret.txt')->assertNotFound();
         $this->assertNull(app(DatabaseBackup::class)->pathFor('../../.env'));
     }
@@ -71,9 +72,9 @@ class BackupTest extends TestCase
     {
         $this->fakeBackup('db-a.sql', 300);
         $this->fakeBackup('db-b.sql', 200);
-        $this->fakeBackup('db-c.sql', 100);
+        $this->fakeBackup('db-c.sqlite', 100);
 
         $this->assertSame(1, app(DatabaseBackup::class)->prune());
-        $this->assertSame(['db-c.sql', 'db-b.sql'], app(DatabaseBackup::class)->all()->pluck('name')->all());
+        $this->assertSame(['db-c.sqlite', 'db-b.sql'], app(DatabaseBackup::class)->all()->pluck('name')->all());
     }
 }

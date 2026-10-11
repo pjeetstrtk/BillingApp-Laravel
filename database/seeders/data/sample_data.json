@@ -1,0 +1,4808 @@
+{
+ "customers": [
+  {
+   "id": 1,
+   "name": "Customer 1",
+   "email": "customer1@example.com",
+   "phone": "555-0101",
+   "address": "101 Main St, Suite 1",
+   "created_at": "2026-01-01 10:00:00"
+  },
+  {
+   "id": 2,
+   "name": "Customer 2",
+   "email": "customer2@example.com",
+   "phone": "555-0102",
+   "address": "102 Main St, Suite 2",
+   "created_at": "2026-01-01 10:05:00"
+  },
+  {
+   "id": 3,
+   "name": "Customer 3",
+   "email": "customer3@example.com",
+   "phone": "555-0103",
+   "address": "103 Main St, Suite 3",
+   "created_at": "2026-01-01 10:10:00"
+  },
+  {
+   "id": 4,
+   "name": "Customer 4",
+   "email": "customer4@example.com",
+   "phone": "555-0104",
+   "address": "104 Main St, Suite 4",
+   "created_at": "2026-01-01 10:15:00"
+  },
+  {
+   "id": 5,
+   "name": "Customer 5",
+   "email": "customer5@example.com",
+   "phone": "555-0105",
+   "address": "105 Main St, Suite 5",
+   "created_at": "2026-01-01 10:20:00"
+  },
+  {
+   "id": 6,
+   "name": "Customer 6",
+   "email": "customer6@example.com",
+   "phone": "555-0106",
+   "address": "106 Main St, Suite 6",
+   "created_at": "2026-01-01 10:25:00"
+  },
+  {
+   "id": 7,
+   "name": "Customer 7",
+   "email": "customer7@example.com",
+   "phone": "555-0107",
+   "address": "107 Main St, Suite 7",
+   "created_at": "2026-01-01 10:30:00"
+  },
+  {
+   "id": 8,
+   "name": "Customer 8",
+   "email": "customer8@example.com",
+   "phone": "555-0108",
+   "address": "108 Main St, Suite 8",
+   "created_at": "2026-01-01 10:35:00"
+  },
+  {
+   "id": 9,
+   "name": "Customer 9",
+   "email": "customer9@example.com",
+   "phone": "555-0109",
+   "address": "109 Main St, Suite 9",
+   "created_at": "2026-01-01 10:40:00"
+  },
+  {
+   "id": 10,
+   "name": "Customer 10",
+   "email": "customer10@example.com",
+   "phone": "555-0110",
+   "address": "110 Main St, Suite 10",
+   "created_at": "2026-01-01 10:45:00"
+  },
+  {
+   "id": 11,
+   "name": "Customer 11",
+   "email": "customer11@example.com",
+   "phone": "555-0111",
+   "address": "111 Main St, Suite 11",
+   "created_at": "2026-01-01 10:50:00"
+  },
+  {
+   "id": 12,
+   "name": "Customer 12",
+   "email": "customer12@example.com",
+   "phone": "555-0112",
+   "address": "112 Main St, Suite 12",
+   "created_at": "2026-01-01 10:55:00"
+  },
+  {
+   "id": 13,
+   "name": "Customer 13",
+   "email": "customer13@example.com",
+   "phone": "555-0113",
+   "address": "113 Main St, Suite 13",
+   "created_at": "2026-01-01 11:00:00"
+  },
+  {
+   "id": 14,
+   "name": "Customer 14",
+   "email": "customer14@example.com",
+   "phone": "555-0114",
+   "address": "114 Main St, Suite 14",
+   "created_at": "2026-01-01 11:05:00"
+  },
+  {
+   "id": 15,
+   "name": "Customer 15",
+   "email": "customer15@example.com",
+   "phone": "555-0115",
+   "address": "115 Main St, Suite 15",
+   "created_at": "2026-01-01 11:10:00"
+  },
+  {
+   "id": 16,
+   "name": "Customer 16",
+   "email": "customer16@example.com",
+   "phone": "555-0116",
+   "address": "116 Main St, Suite 16",
+   "created_at": "2026-01-01 11:15:00"
+  },
+  {
+   "id": 17,
+   "name": "Customer 17",
+   "email": "customer17@example.com",
+   "phone": "555-0117",
+   "address": "117 Main St, Suite 17",
+   "created_at": "2026-01-01 11:20:00"
+  },
+  {
+   "id": 18,
+   "name": "Customer 18",
+   "email": "customer18@example.com",
+   "phone": "555-0118",
+   "address": "118 Main St, Suite 18",
+   "created_at": "2026-01-01 11:25:00"
+  },
+  {
+   "id": 19,
+   "name": "Customer 19",
+   "email": "customer19@example.com",
+   "phone": "555-0119",
+   "address": "119 Main St, Suite 19",
+   "created_at": "2026-01-01 11:30:00"
+  },
+  {
+   "id": 20,
+   "name": "Customer 20",
+   "email": "customer20@example.com",
+   "phone": "555-0120",
+   "address": "120 Main St, Suite 20",
+   "created_at": "2026-01-01 11:35:00"
+  },
+  {
+   "id": 21,
+   "name": "Customer 21",
+   "email": "customer21@example.com",
+   "phone": "555-0121",
+   "address": "121 Main St, Suite 21",
+   "created_at": "2026-01-01 11:40:00"
+  },
+  {
+   "id": 22,
+   "name": "Customer 22",
+   "email": "customer22@example.com",
+   "phone": "555-0122",
+   "address": "122 Main St, Suite 22",
+   "created_at": "2026-01-01 11:45:00"
+  },
+  {
+   "id": 23,
+   "name": "Customer 23",
+   "email": "customer23@example.com",
+   "phone": "555-0123",
+   "address": "123 Main St, Suite 23",
+   "created_at": "2026-01-01 11:50:00"
+  },
+  {
+   "id": 24,
+   "name": "Customer 24",
+   "email": "customer24@example.com",
+   "phone": "555-0124",
+   "address": "124 Main St, Suite 24",
+   "created_at": "2026-01-01 11:55:00"
+  },
+  {
+   "id": 25,
+   "name": "Customer 25",
+   "email": "customer25@example.com",
+   "phone": "555-0125",
+   "address": "125 Main St, Suite 25",
+   "created_at": "2026-01-01 12:00:00"
+  },
+  {
+   "id": 26,
+   "name": "Customer 26",
+   "email": "customer26@example.com",
+   "phone": "555-0126",
+   "address": "126 Main St, Suite 26",
+   "created_at": "2026-01-01 12:05:00"
+  },
+  {
+   "id": 27,
+   "name": "Customer 27",
+   "email": "customer27@example.com",
+   "phone": "555-0127",
+   "address": "127 Main St, Suite 27",
+   "created_at": "2026-01-01 12:10:00"
+  },
+  {
+   "id": 28,
+   "name": "Customer 28",
+   "email": "customer28@example.com",
+   "phone": "555-0128",
+   "address": "128 Main St, Suite 28",
+   "created_at": "2026-01-01 12:15:00"
+  },
+  {
+   "id": 29,
+   "name": "Customer 29",
+   "email": "customer29@example.com",
+   "phone": "555-0129",
+   "address": "129 Main St, Suite 29",
+   "created_at": "2026-01-01 12:20:00"
+  },
+  {
+   "id": 30,
+   "name": "Customer 30",
+   "email": "customer30@example.com",
+   "phone": "555-0130",
+   "address": "130 Main St, Suite 30",
+   "created_at": "2026-01-01 12:25:00"
+  },
+  {
+   "id": 31,
+   "name": "Customer 31",
+   "email": "customer31@example.com",
+   "phone": "555-0131",
+   "address": "131 Main St, Suite 31",
+   "created_at": "2026-01-01 12:30:00"
+  },
+  {
+   "id": 32,
+   "name": "Customer 32",
+   "email": "customer32@example.com",
+   "phone": "555-0132",
+   "address": "132 Main St, Suite 32",
+   "created_at": "2026-01-01 12:35:00"
+  },
+  {
+   "id": 33,
+   "name": "Customer 33",
+   "email": "customer33@example.com",
+   "phone": "555-0133",
+   "address": "133 Main St, Suite 33",
+   "created_at": "2026-01-01 12:40:00"
+  },
+  {
+   "id": 34,
+   "name": "Customer 34",
+   "email": "customer34@example.com",
+   "phone": "555-0134",
+   "address": "134 Main St, Suite 34",
+   "created_at": "2026-01-01 12:45:00"
+  },
+  {
+   "id": 35,
+   "name": "Customer 35",
+   "email": "customer35@example.com",
+   "phone": "555-0135",
+   "address": "135 Main St, Suite 35",
+   "created_at": "2026-01-01 12:50:00"
+  },
+  {
+   "id": 36,
+   "name": "Customer 36",
+   "email": "customer36@example.com",
+   "phone": "555-0136",
+   "address": "136 Main St, Suite 36",
+   "created_at": "2026-01-01 12:55:00"
+  },
+  {
+   "id": 37,
+   "name": "Customer 37",
+   "email": "customer37@example.com",
+   "phone": "555-0137",
+   "address": "137 Main St, Suite 37",
+   "created_at": "2026-01-01 13:00:00"
+  },
+  {
+   "id": 38,
+   "name": "Customer 38",
+   "email": "customer38@example.com",
+   "phone": "555-0138",
+   "address": "138 Main St, Suite 38",
+   "created_at": "2026-01-01 13:05:00"
+  },
+  {
+   "id": 39,
+   "name": "Customer 39",
+   "email": "customer39@example.com",
+   "phone": "555-0139",
+   "address": "139 Main St, Suite 39",
+   "created_at": "2026-01-01 13:10:00"
+  },
+  {
+   "id": 40,
+   "name": "Customer 40",
+   "email": "customer40@example.com",
+   "phone": "555-0140",
+   "address": "140 Main St, Suite 40",
+   "created_at": "2026-01-01 13:15:00"
+  },
+  {
+   "id": 41,
+   "name": "Customer 41",
+   "email": "customer41@example.com",
+   "phone": "555-0141",
+   "address": "141 Main St, Suite 41",
+   "created_at": "2026-01-01 13:20:00"
+  },
+  {
+   "id": 42,
+   "name": "Customer 42",
+   "email": "customer42@example.com",
+   "phone": "555-0142",
+   "address": "142 Main St, Suite 42",
+   "created_at": "2026-01-01 13:25:00"
+  },
+  {
+   "id": 43,
+   "name": "Customer 43",
+   "email": "customer43@example.com",
+   "phone": "555-0143",
+   "address": "143 Main St, Suite 43",
+   "created_at": "2026-01-01 13:30:00"
+  },
+  {
+   "id": 44,
+   "name": "Customer 44",
+   "email": "customer44@example.com",
+   "phone": "555-0144",
+   "address": "144 Main St, Suite 44",
+   "created_at": "2026-01-01 13:35:00"
+  },
+  {
+   "id": 45,
+   "name": "Customer 45",
+   "email": "customer45@example.com",
+   "phone": "555-0145",
+   "address": "145 Main St, Suite 45",
+   "created_at": "2026-01-01 13:40:00"
+  },
+  {
+   "id": 46,
+   "name": "Customer 46",
+   "email": "customer46@example.com",
+   "phone": "555-0146",
+   "address": "146 Main St, Suite 46",
+   "created_at": "2026-01-01 13:45:00"
+  },
+  {
+   "id": 47,
+   "name": "Customer 47",
+   "email": "customer47@example.com",
+   "phone": "555-0147",
+   "address": "147 Main St, Suite 47",
+   "created_at": "2026-01-01 13:50:00"
+  },
+  {
+   "id": 48,
+   "name": "Customer 48",
+   "email": "customer48@example.com",
+   "phone": "555-0148",
+   "address": "148 Main St, Suite 48",
+   "created_at": "2026-01-01 13:55:00"
+  },
+  {
+   "id": 49,
+   "name": "Customer 49",
+   "email": "customer49@example.com",
+   "phone": "555-0149",
+   "address": "149 Main St, Suite 49",
+   "created_at": "2026-01-01 14:00:00"
+  },
+  {
+   "id": 50,
+   "name": "Customer 50",
+   "email": "customer50@example.com",
+   "phone": "555-0150",
+   "address": "150 Main St, Suite 50",
+   "created_at": "2026-01-01 14:05:00"
+  },
+  {
+   "id": 51,
+   "name": "Customer 51",
+   "email": "customer51@example.com",
+   "phone": "555-0151",
+   "address": "151 Main St, Suite 51",
+   "created_at": "2026-01-01 14:10:00"
+  },
+  {
+   "id": 52,
+   "name": "Customer 52",
+   "email": "customer52@example.com",
+   "phone": "555-0152",
+   "address": "152 Main St, Suite 52",
+   "created_at": "2026-01-01 14:15:00"
+  },
+  {
+   "id": 53,
+   "name": "Customer 53",
+   "email": "customer53@example.com",
+   "phone": "555-0153",
+   "address": "153 Main St, Suite 53",
+   "created_at": "2026-01-01 14:20:00"
+  },
+  {
+   "id": 54,
+   "name": "Customer 54",
+   "email": "customer54@example.com",
+   "phone": "555-0154",
+   "address": "154 Main St, Suite 54",
+   "created_at": "2026-01-01 14:25:00"
+  },
+  {
+   "id": 55,
+   "name": "Customer 55",
+   "email": "customer55@example.com",
+   "phone": "555-0155",
+   "address": "155 Main St, Suite 55",
+   "created_at": "2026-01-01 14:30:00"
+  },
+  {
+   "id": 56,
+   "name": "Customer 56",
+   "email": "customer56@example.com",
+   "phone": "555-0156",
+   "address": "156 Main St, Suite 56",
+   "created_at": "2026-01-01 14:35:00"
+  },
+  {
+   "id": 57,
+   "name": "Customer 57",
+   "email": "customer57@example.com",
+   "phone": "555-0157",
+   "address": "157 Main St, Suite 57",
+   "created_at": "2026-01-01 14:40:00"
+  },
+  {
+   "id": 58,
+   "name": "Customer 58",
+   "email": "customer58@example.com",
+   "phone": "555-0158",
+   "address": "158 Main St, Suite 58",
+   "created_at": "2026-01-01 14:45:00"
+  },
+  {
+   "id": 59,
+   "name": "Customer 59",
+   "email": "customer59@example.com",
+   "phone": "555-0159",
+   "address": "159 Main St, Suite 59",
+   "created_at": "2026-01-01 14:50:00"
+  },
+  {
+   "id": 60,
+   "name": "Customer 60",
+   "email": "customer60@example.com",
+   "phone": "555-0160",
+   "address": "160 Main St, Suite 60",
+   "created_at": "2026-01-01 14:55:00"
+  },
+  {
+   "id": 61,
+   "name": "Customer 61",
+   "email": "customer61@example.com",
+   "phone": "555-0161",
+   "address": "161 Main St, Suite 61",
+   "created_at": "2026-01-01 15:00:00"
+  },
+  {
+   "id": 62,
+   "name": "Customer 62",
+   "email": "customer62@example.com",
+   "phone": "555-0162",
+   "address": "162 Main St, Suite 62",
+   "created_at": "2026-01-01 15:05:00"
+  },
+  {
+   "id": 63,
+   "name": "Customer 63",
+   "email": "customer63@example.com",
+   "phone": "555-0163",
+   "address": "163 Main St, Suite 63",
+   "created_at": "2026-01-01 15:10:00"
+  },
+  {
+   "id": 64,
+   "name": "Customer 64",
+   "email": "customer64@example.com",
+   "phone": "555-0164",
+   "address": "164 Main St, Suite 64",
+   "created_at": "2026-01-01 15:15:00"
+  },
+  {
+   "id": 65,
+   "name": "Customer 65",
+   "email": "customer65@example.com",
+   "phone": "555-0165",
+   "address": "165 Main St, Suite 65",
+   "created_at": "2026-01-01 15:20:00"
+  },
+  {
+   "id": 66,
+   "name": "Customer 66",
+   "email": "customer66@example.com",
+   "phone": "555-0166",
+   "address": "166 Main St, Suite 66",
+   "created_at": "2026-01-01 15:25:00"
+  },
+  {
+   "id": 67,
+   "name": "Customer 67",
+   "email": "customer67@example.com",
+   "phone": "555-0167",
+   "address": "167 Main St, Suite 67",
+   "created_at": "2026-01-01 15:30:00"
+  },
+  {
+   "id": 68,
+   "name": "Customer 68",
+   "email": "customer68@example.com",
+   "phone": "555-0168",
+   "address": "168 Main St, Suite 68",
+   "created_at": "2026-01-01 15:35:00"
+  },
+  {
+   "id": 69,
+   "name": "Customer 69",
+   "email": "customer69@example.com",
+   "phone": "555-0169",
+   "address": "169 Main St, Suite 69",
+   "created_at": "2026-01-01 15:40:00"
+  },
+  {
+   "id": 70,
+   "name": "Customer 70",
+   "email": "customer70@example.com",
+   "phone": "555-0170",
+   "address": "170 Main St, Suite 70",
+   "created_at": "2026-01-01 15:45:00"
+  },
+  {
+   "id": 71,
+   "name": "Customer 71",
+   "email": "customer71@example.com",
+   "phone": "555-0171",
+   "address": "171 Main St, Suite 71",
+   "created_at": "2026-01-01 15:50:00"
+  },
+  {
+   "id": 72,
+   "name": "Customer 72",
+   "email": "customer72@example.com",
+   "phone": "555-0172",
+   "address": "172 Main St, Suite 72",
+   "created_at": "2026-01-01 15:55:00"
+  },
+  {
+   "id": 73,
+   "name": "Customer 73",
+   "email": "customer73@example.com",
+   "phone": "555-0173",
+   "address": "173 Main St, Suite 73",
+   "created_at": "2026-01-01 16:00:00"
+  },
+  {
+   "id": 74,
+   "name": "Customer 74",
+   "email": "customer74@example.com",
+   "phone": "555-0174",
+   "address": "174 Main St, Suite 74",
+   "created_at": "2026-01-01 16:05:00"
+  },
+  {
+   "id": 75,
+   "name": "Customer 75",
+   "email": "customer75@example.com",
+   "phone": "555-0175",
+   "address": "175 Main St, Suite 75",
+   "created_at": "2026-01-01 16:10:00"
+  },
+  {
+   "id": 76,
+   "name": "Customer 76",
+   "email": "customer76@example.com",
+   "phone": "555-0176",
+   "address": "176 Main St, Suite 76",
+   "created_at": "2026-01-01 16:15:00"
+  },
+  {
+   "id": 77,
+   "name": "Customer 77",
+   "email": "customer77@example.com",
+   "phone": "555-0177",
+   "address": "177 Main St, Suite 77",
+   "created_at": "2026-01-01 16:20:00"
+  },
+  {
+   "id": 78,
+   "name": "Customer 78",
+   "email": "customer78@example.com",
+   "phone": "555-0178",
+   "address": "178 Main St, Suite 78",
+   "created_at": "2026-01-01 16:25:00"
+  },
+  {
+   "id": 79,
+   "name": "Customer 79",
+   "email": "customer79@example.com",
+   "phone": "555-0179",
+   "address": "179 Main St, Suite 79",
+   "created_at": "2026-01-01 16:30:00"
+  },
+  {
+   "id": 80,
+   "name": "Customer 80",
+   "email": "customer80@example.com",
+   "phone": "555-0180",
+   "address": "180 Main St, Suite 80",
+   "created_at": "2026-01-01 16:35:00"
+  },
+  {
+   "id": 81,
+   "name": "Customer 81",
+   "email": "customer81@example.com",
+   "phone": "555-0181",
+   "address": "181 Main St, Suite 81",
+   "created_at": "2026-01-01 16:40:00"
+  },
+  {
+   "id": 82,
+   "name": "Customer 82",
+   "email": "customer82@example.com",
+   "phone": "555-0182",
+   "address": "182 Main St, Suite 82",
+   "created_at": "2026-01-01 16:45:00"
+  },
+  {
+   "id": 83,
+   "name": "Customer 83",
+   "email": "customer83@example.com",
+   "phone": "555-0183",
+   "address": "183 Main St, Suite 83",
+   "created_at": "2026-01-01 16:50:00"
+  },
+  {
+   "id": 84,
+   "name": "Customer 84",
+   "email": "customer84@example.com",
+   "phone": "555-0184",
+   "address": "184 Main St, Suite 84",
+   "created_at": "2026-01-01 16:55:00"
+  },
+  {
+   "id": 85,
+   "name": "Customer 85",
+   "email": "customer85@example.com",
+   "phone": "555-0185",
+   "address": "185 Main St, Suite 85",
+   "created_at": "2026-01-01 17:00:00"
+  },
+  {
+   "id": 86,
+   "name": "Customer 86",
+   "email": "customer86@example.com",
+   "phone": "555-0186",
+   "address": "186 Main St, Suite 86",
+   "created_at": "2026-01-01 17:05:00"
+  },
+  {
+   "id": 87,
+   "name": "Customer 87",
+   "email": "customer87@example.com",
+   "phone": "555-0187",
+   "address": "187 Main St, Suite 87",
+   "created_at": "2026-01-01 17:10:00"
+  },
+  {
+   "id": 88,
+   "name": "Customer 88",
+   "email": "customer88@example.com",
+   "phone": "555-0188",
+   "address": "188 Main St, Suite 88",
+   "created_at": "2026-01-01 17:15:00"
+  },
+  {
+   "id": 89,
+   "name": "Customer 89",
+   "email": "customer89@example.com",
+   "phone": "555-0189",
+   "address": "189 Main St, Suite 89",
+   "created_at": "2026-01-01 17:20:00"
+  },
+  {
+   "id": 90,
+   "name": "Customer 90",
+   "email": "customer90@example.com",
+   "phone": "555-0190",
+   "address": "190 Main St, Suite 90",
+   "created_at": "2026-01-01 17:25:00"
+  },
+  {
+   "id": 91,
+   "name": "Customer 91",
+   "email": "customer91@example.com",
+   "phone": "555-0191",
+   "address": "191 Main St, Suite 91",
+   "created_at": "2026-01-01 17:30:00"
+  },
+  {
+   "id": 92,
+   "name": "Customer 92",
+   "email": "customer92@example.com",
+   "phone": "555-0192",
+   "address": "192 Main St, Suite 92",
+   "created_at": "2026-01-01 17:35:00"
+  },
+  {
+   "id": 93,
+   "name": "Customer 93",
+   "email": "customer93@example.com",
+   "phone": "555-0193",
+   "address": "193 Main St, Suite 93",
+   "created_at": "2026-01-01 17:40:00"
+  },
+  {
+   "id": 94,
+   "name": "Customer 94",
+   "email": "customer94@example.com",
+   "phone": "555-0194",
+   "address": "194 Main St, Suite 94",
+   "created_at": "2026-01-01 17:45:00"
+  },
+  {
+   "id": 95,
+   "name": "Customer 95",
+   "email": "customer95@example.com",
+   "phone": "555-0195",
+   "address": "195 Main St, Suite 95",
+   "created_at": "2026-01-01 17:50:00"
+  },
+  {
+   "id": 96,
+   "name": "Customer 96",
+   "email": "customer96@example.com",
+   "phone": "555-0196",
+   "address": "196 Main St, Suite 96",
+   "created_at": "2026-01-01 17:55:00"
+  },
+  {
+   "id": 97,
+   "name": "Customer 97",
+   "email": "customer97@example.com",
+   "phone": "555-0197",
+   "address": "197 Main St, Suite 97",
+   "created_at": "2026-01-01 18:00:00"
+  },
+  {
+   "id": 98,
+   "name": "Customer 98",
+   "email": "customer98@example.com",
+   "phone": "555-0198",
+   "address": "198 Main St, Suite 98",
+   "created_at": "2026-01-01 18:05:00"
+  },
+  {
+   "id": 99,
+   "name": "Customer 99",
+   "email": "customer99@example.com",
+   "phone": "555-0199",
+   "address": "199 Main St, Suite 99",
+   "created_at": "2026-01-01 18:10:00"
+  },
+  {
+   "id": 100,
+   "name": "Customer 100",
+   "email": "customer100@example.com",
+   "phone": "555-0200",
+   "address": "200 Main St, Suite 100",
+   "created_at": "2026-01-01 18:15:00"
+  }
+ ],
+ "products": [
+  {
+   "id": 1,
+   "name": "Product 1",
+   "description": "Description for Product 1",
+   "price": 15.0,
+   "stock": 100,
+   "created_at": "2026-01-01 09:00:00"
+  },
+  {
+   "id": 2,
+   "name": "Product 2",
+   "description": "Description for Product 2",
+   "price": 20.0,
+   "stock": 95,
+   "created_at": "2026-01-01 09:01:00"
+  },
+  {
+   "id": 3,
+   "name": "Product 3",
+   "description": "Description for Product 3",
+   "price": 25.0,
+   "stock": 90,
+   "created_at": "2026-01-01 09:02:00"
+  },
+  {
+   "id": 4,
+   "name": "Product 4",
+   "description": "Description for Product 4",
+   "price": 30.0,
+   "stock": 85,
+   "created_at": "2026-01-01 09:03:00"
+  },
+  {
+   "id": 5,
+   "name": "Product 5",
+   "description": "Description for Product 5",
+   "price": 35.0,
+   "stock": 80,
+   "created_at": "2026-01-01 09:04:00"
+  },
+  {
+   "id": 6,
+   "name": "Product 6",
+   "description": "Description for Product 6",
+   "price": 40.0,
+   "stock": 75,
+   "created_at": "2026-01-01 09:05:00"
+  },
+  {
+   "id": 7,
+   "name": "Product 7",
+   "description": "Description for Product 7",
+   "price": 45.0,
+   "stock": 70,
+   "created_at": "2026-01-01 09:06:00"
+  },
+  {
+   "id": 8,
+   "name": "Product 8",
+   "description": "Description for Product 8",
+   "price": 50.0,
+   "stock": 65,
+   "created_at": "2026-01-01 09:07:00"
+  },
+  {
+   "id": 9,
+   "name": "Product 9",
+   "description": "Description for Product 9",
+   "price": 55.0,
+   "stock": 60,
+   "created_at": "2026-01-01 09:08:00"
+  },
+  {
+   "id": 10,
+   "name": "Product 10",
+   "description": "Description for Product 10",
+   "price": 60.0,
+   "stock": 55,
+   "created_at": "2026-01-01 09:09:00"
+  },
+  {
+   "id": 11,
+   "name": "Product 11",
+   "description": "Description for Product 11",
+   "price": 65.0,
+   "stock": 50,
+   "created_at": "2026-01-01 09:10:00"
+  },
+  {
+   "id": 12,
+   "name": "Product 12",
+   "description": "Description for Product 12",
+   "price": 70.0,
+   "stock": 45,
+   "created_at": "2026-01-01 09:11:00"
+  },
+  {
+   "id": 13,
+   "name": "Product 13",
+   "description": "Description for Product 13",
+   "price": 75.0,
+   "stock": 40,
+   "created_at": "2026-01-01 09:12:00"
+  },
+  {
+   "id": 14,
+   "name": "Product 14",
+   "description": "Description for Product 14",
+   "price": 80.0,
+   "stock": 35,
+   "created_at": "2026-01-01 09:13:00"
+  },
+  {
+   "id": 15,
+   "name": "Product 15",
+   "description": "Description for Product 15",
+   "price": 85.0,
+   "stock": 30,
+   "created_at": "2026-01-01 09:14:00"
+  },
+  {
+   "id": 16,
+   "name": "Product 16",
+   "description": "Description for Product 16",
+   "price": 90.0,
+   "stock": 25,
+   "created_at": "2026-01-01 09:15:00"
+  },
+  {
+   "id": 17,
+   "name": "Product 17",
+   "description": "Description for Product 17",
+   "price": 95.0,
+   "stock": 20,
+   "created_at": "2026-01-01 09:16:00"
+  },
+  {
+   "id": 18,
+   "name": "Product 18",
+   "description": "Description for Product 18",
+   "price": 100.0,
+   "stock": 15,
+   "created_at": "2026-01-01 09:17:00"
+  },
+  {
+   "id": 19,
+   "name": "Product 19",
+   "description": "Description for Product 19",
+   "price": 105.0,
+   "stock": 10,
+   "created_at": "2026-01-01 09:18:00"
+  },
+  {
+   "id": 20,
+   "name": "Product 20",
+   "description": "Description for Product 20",
+   "price": 110.0,
+   "stock": 5,
+   "created_at": "2026-01-01 09:19:00"
+  },
+  {
+   "id": 21,
+   "name": "Product 21",
+   "description": "Description for Product 21",
+   "price": 115.0,
+   "stock": 100,
+   "created_at": "2026-01-01 09:20:00"
+  },
+  {
+   "id": 22,
+   "name": "Product 22",
+   "description": "Description for Product 22",
+   "price": 120.0,
+   "stock": 95,
+   "created_at": "2026-01-01 09:21:00"
+  },
+  {
+   "id": 23,
+   "name": "Product 23",
+   "description": "Description for Product 23",
+   "price": 125.0,
+   "stock": 90,
+   "created_at": "2026-01-01 09:22:00"
+  },
+  {
+   "id": 24,
+   "name": "Product 24",
+   "description": "Description for Product 24",
+   "price": 130.0,
+   "stock": 85,
+   "created_at": "2026-01-01 09:23:00"
+  },
+  {
+   "id": 25,
+   "name": "Product 25",
+   "description": "Description for Product 25",
+   "price": 135.0,
+   "stock": 80,
+   "created_at": "2026-01-01 09:24:00"
+  },
+  {
+   "id": 26,
+   "name": "Product 26",
+   "description": "Description for Product 26",
+   "price": 140.0,
+   "stock": 75,
+   "created_at": "2026-01-01 09:25:00"
+  },
+  {
+   "id": 27,
+   "name": "Product 27",
+   "description": "Description for Product 27",
+   "price": 145.0,
+   "stock": 70,
+   "created_at": "2026-01-01 09:26:00"
+  },
+  {
+   "id": 28,
+   "name": "Product 28",
+   "description": "Description for Product 28",
+   "price": 150.0,
+   "stock": 65,
+   "created_at": "2026-01-01 09:27:00"
+  },
+  {
+   "id": 29,
+   "name": "Product 29",
+   "description": "Description for Product 29",
+   "price": 155.0,
+   "stock": 60,
+   "created_at": "2026-01-01 09:28:00"
+  },
+  {
+   "id": 30,
+   "name": "Product 30",
+   "description": "Description for Product 30",
+   "price": 160.0,
+   "stock": 55,
+   "created_at": "2026-01-01 09:29:00"
+  },
+  {
+   "id": 31,
+   "name": "Product 31",
+   "description": "Description for Product 31",
+   "price": 165.0,
+   "stock": 50,
+   "created_at": "2026-01-01 09:30:00"
+  },
+  {
+   "id": 32,
+   "name": "Product 32",
+   "description": "Description for Product 32",
+   "price": 170.0,
+   "stock": 45,
+   "created_at": "2026-01-01 09:31:00"
+  },
+  {
+   "id": 33,
+   "name": "Product 33",
+   "description": "Description for Product 33",
+   "price": 175.0,
+   "stock": 40,
+   "created_at": "2026-01-01 09:32:00"
+  },
+  {
+   "id": 34,
+   "name": "Product 34",
+   "description": "Description for Product 34",
+   "price": 180.0,
+   "stock": 35,
+   "created_at": "2026-01-01 09:33:00"
+  },
+  {
+   "id": 35,
+   "name": "Product 35",
+   "description": "Description for Product 35",
+   "price": 185.0,
+   "stock": 30,
+   "created_at": "2026-01-01 09:34:00"
+  },
+  {
+   "id": 36,
+   "name": "Product 36",
+   "description": "Description for Product 36",
+   "price": 190.0,
+   "stock": 25,
+   "created_at": "2026-01-01 09:35:00"
+  },
+  {
+   "id": 37,
+   "name": "Product 37",
+   "description": "Description for Product 37",
+   "price": 195.0,
+   "stock": 20,
+   "created_at": "2026-01-01 09:36:00"
+  },
+  {
+   "id": 38,
+   "name": "Product 38",
+   "description": "Description for Product 38",
+   "price": 200.0,
+   "stock": 15,
+   "created_at": "2026-01-01 09:37:00"
+  },
+  {
+   "id": 39,
+   "name": "Product 39",
+   "description": "Description for Product 39",
+   "price": 205.0,
+   "stock": 10,
+   "created_at": "2026-01-01 09:38:00"
+  },
+  {
+   "id": 40,
+   "name": "Product 40",
+   "description": "Description for Product 40",
+   "price": 210.0,
+   "stock": 5,
+   "created_at": "2026-01-01 09:39:00"
+  },
+  {
+   "id": 41,
+   "name": "Product 41",
+   "description": "Description for Product 41",
+   "price": 215.0,
+   "stock": 100,
+   "created_at": "2026-01-01 09:40:00"
+  },
+  {
+   "id": 42,
+   "name": "Product 42",
+   "description": "Description for Product 42",
+   "price": 220.0,
+   "stock": 95,
+   "created_at": "2026-01-01 09:41:00"
+  },
+  {
+   "id": 43,
+   "name": "Product 43",
+   "description": "Description for Product 43",
+   "price": 225.0,
+   "stock": 90,
+   "created_at": "2026-01-01 09:42:00"
+  },
+  {
+   "id": 44,
+   "name": "Product 44",
+   "description": "Description for Product 44",
+   "price": 230.0,
+   "stock": 85,
+   "created_at": "2026-01-01 09:43:00"
+  },
+  {
+   "id": 45,
+   "name": "Product 45",
+   "description": "Description for Product 45",
+   "price": 235.0,
+   "stock": 80,
+   "created_at": "2026-01-01 09:44:00"
+  },
+  {
+   "id": 46,
+   "name": "Product 46",
+   "description": "Description for Product 46",
+   "price": 240.0,
+   "stock": 75,
+   "created_at": "2026-01-01 09:45:00"
+  },
+  {
+   "id": 47,
+   "name": "Product 47",
+   "description": "Description for Product 47",
+   "price": 245.0,
+   "stock": 70,
+   "created_at": "2026-01-01 09:46:00"
+  },
+  {
+   "id": 48,
+   "name": "Product 48",
+   "description": "Description for Product 48",
+   "price": 250.0,
+   "stock": 65,
+   "created_at": "2026-01-01 09:47:00"
+  },
+  {
+   "id": 49,
+   "name": "Product 49",
+   "description": "Description for Product 49",
+   "price": 255.0,
+   "stock": 60,
+   "created_at": "2026-01-01 09:48:00"
+  },
+  {
+   "id": 50,
+   "name": "Product 50",
+   "description": "Description for Product 50",
+   "price": 260.0,
+   "stock": 55,
+   "created_at": "2026-01-01 09:49:00"
+  },
+  {
+   "id": 51,
+   "name": "Product 51",
+   "description": "Description for Product 51",
+   "price": 265.0,
+   "stock": 50,
+   "created_at": "2026-01-01 09:50:00"
+  },
+  {
+   "id": 52,
+   "name": "Product 52",
+   "description": "Description for Product 52",
+   "price": 270.0,
+   "stock": 45,
+   "created_at": "2026-01-01 09:51:00"
+  },
+  {
+   "id": 53,
+   "name": "Product 53",
+   "description": "Description for Product 53",
+   "price": 275.0,
+   "stock": 40,
+   "created_at": "2026-01-01 09:52:00"
+  },
+  {
+   "id": 54,
+   "name": "Product 54",
+   "description": "Description for Product 54",
+   "price": 280.0,
+   "stock": 35,
+   "created_at": "2026-01-01 09:53:00"
+  },
+  {
+   "id": 55,
+   "name": "Product 55",
+   "description": "Description for Product 55",
+   "price": 285.0,
+   "stock": 30,
+   "created_at": "2026-01-01 09:54:00"
+  },
+  {
+   "id": 56,
+   "name": "Product 56",
+   "description": "Description for Product 56",
+   "price": 290.0,
+   "stock": 25,
+   "created_at": "2026-01-01 09:55:00"
+  },
+  {
+   "id": 57,
+   "name": "Product 57",
+   "description": "Description for Product 57",
+   "price": 295.0,
+   "stock": 20,
+   "created_at": "2026-01-01 09:56:00"
+  },
+  {
+   "id": 58,
+   "name": "Product 58",
+   "description": "Description for Product 58",
+   "price": 300.0,
+   "stock": 15,
+   "created_at": "2026-01-01 09:57:00"
+  },
+  {
+   "id": 59,
+   "name": "Product 59",
+   "description": "Description for Product 59",
+   "price": 305.0,
+   "stock": 10,
+   "created_at": "2026-01-01 09:58:00"
+  },
+  {
+   "id": 60,
+   "name": "Product 60",
+   "description": "Description for Product 60",
+   "price": 310.0,
+   "stock": 5,
+   "created_at": "2026-01-01 09:59:00"
+  },
+  {
+   "id": 61,
+   "name": "Product 61",
+   "description": "Description for Product 61",
+   "price": 315.0,
+   "stock": 100,
+   "created_at": "2026-01-01 10:00:00"
+  },
+  {
+   "id": 62,
+   "name": "Product 62",
+   "description": "Description for Product 62",
+   "price": 320.0,
+   "stock": 95,
+   "created_at": "2026-01-01 10:01:00"
+  },
+  {
+   "id": 63,
+   "name": "Product 63",
+   "description": "Description for Product 63",
+   "price": 325.0,
+   "stock": 90,
+   "created_at": "2026-01-01 10:02:00"
+  },
+  {
+   "id": 64,
+   "name": "Product 64",
+   "description": "Description for Product 64",
+   "price": 330.0,
+   "stock": 85,
+   "created_at": "2026-01-01 10:03:00"
+  },
+  {
+   "id": 65,
+   "name": "Product 65",
+   "description": "Description for Product 65",
+   "price": 335.0,
+   "stock": 80,
+   "created_at": "2026-01-01 10:04:00"
+  },
+  {
+   "id": 66,
+   "name": "Product 66",
+   "description": "Description for Product 66",
+   "price": 340.0,
+   "stock": 75,
+   "created_at": "2026-01-01 10:05:00"
+  },
+  {
+   "id": 67,
+   "name": "Product 67",
+   "description": "Description for Product 67",
+   "price": 345.0,
+   "stock": 70,
+   "created_at": "2026-01-01 10:06:00"
+  },
+  {
+   "id": 68,
+   "name": "Product 68",
+   "description": "Description for Product 68",
+   "price": 350.0,
+   "stock": 65,
+   "created_at": "2026-01-01 10:07:00"
+  },
+  {
+   "id": 69,
+   "name": "Product 69",
+   "description": "Description for Product 69",
+   "price": 355.0,
+   "stock": 60,
+   "created_at": "2026-01-01 10:08:00"
+  },
+  {
+   "id": 70,
+   "name": "Product 70",
+   "description": "Description for Product 70",
+   "price": 360.0,
+   "stock": 55,
+   "created_at": "2026-01-01 10:09:00"
+  },
+  {
+   "id": 71,
+   "name": "Product 71",
+   "description": "Description for Product 71",
+   "price": 365.0,
+   "stock": 50,
+   "created_at": "2026-01-01 10:10:00"
+  },
+  {
+   "id": 72,
+   "name": "Product 72",
+   "description": "Description for Product 72",
+   "price": 370.0,
+   "stock": 45,
+   "created_at": "2026-01-01 10:11:00"
+  },
+  {
+   "id": 73,
+   "name": "Product 73",
+   "description": "Description for Product 73",
+   "price": 375.0,
+   "stock": 40,
+   "created_at": "2026-01-01 10:12:00"
+  },
+  {
+   "id": 74,
+   "name": "Product 74",
+   "description": "Description for Product 74",
+   "price": 380.0,
+   "stock": 35,
+   "created_at": "2026-01-01 10:13:00"
+  },
+  {
+   "id": 75,
+   "name": "Product 75",
+   "description": "Description for Product 75",
+   "price": 385.0,
+   "stock": 30,
+   "created_at": "2026-01-01 10:14:00"
+  },
+  {
+   "id": 76,
+   "name": "Product 76",
+   "description": "Description for Product 76",
+   "price": 390.0,
+   "stock": 25,
+   "created_at": "2026-01-01 10:15:00"
+  },
+  {
+   "id": 77,
+   "name": "Product 77",
+   "description": "Description for Product 77",
+   "price": 395.0,
+   "stock": 20,
+   "created_at": "2026-01-01 10:16:00"
+  },
+  {
+   "id": 78,
+   "name": "Product 78",
+   "description": "Description for Product 78",
+   "price": 400.0,
+   "stock": 15,
+   "created_at": "2026-01-01 10:17:00"
+  },
+  {
+   "id": 79,
+   "name": "Product 79",
+   "description": "Description for Product 79",
+   "price": 405.0,
+   "stock": 10,
+   "created_at": "2026-01-01 10:18:00"
+  },
+  {
+   "id": 80,
+   "name": "Product 80",
+   "description": "Description for Product 80",
+   "price": 410.0,
+   "stock": 5,
+   "created_at": "2026-01-01 10:19:00"
+  },
+  {
+   "id": 81,
+   "name": "Product 81",
+   "description": "Description for Product 81",
+   "price": 415.0,
+   "stock": 100,
+   "created_at": "2026-01-01 10:20:00"
+  },
+  {
+   "id": 82,
+   "name": "Product 82",
+   "description": "Description for Product 82",
+   "price": 420.0,
+   "stock": 95,
+   "created_at": "2026-01-01 10:21:00"
+  },
+  {
+   "id": 83,
+   "name": "Product 83",
+   "description": "Description for Product 83",
+   "price": 425.0,
+   "stock": 90,
+   "created_at": "2026-01-01 10:22:00"
+  },
+  {
+   "id": 84,
+   "name": "Product 84",
+   "description": "Description for Product 84",
+   "price": 430.0,
+   "stock": 85,
+   "created_at": "2026-01-01 10:23:00"
+  },
+  {
+   "id": 85,
+   "name": "Product 85",
+   "description": "Description for Product 85",
+   "price": 435.0,
+   "stock": 80,
+   "created_at": "2026-01-01 10:24:00"
+  },
+  {
+   "id": 86,
+   "name": "Product 86",
+   "description": "Description for Product 86",
+   "price": 440.0,
+   "stock": 75,
+   "created_at": "2026-01-01 10:25:00"
+  },
+  {
+   "id": 87,
+   "name": "Product 87",
+   "description": "Description for Product 87",
+   "price": 445.0,
+   "stock": 70,
+   "created_at": "2026-01-01 10:26:00"
+  },
+  {
+   "id": 88,
+   "name": "Product 88",
+   "description": "Description for Product 88",
+   "price": 450.0,
+   "stock": 65,
+   "created_at": "2026-01-01 10:27:00"
+  },
+  {
+   "id": 89,
+   "name": "Product 89",
+   "description": "Description for Product 89",
+   "price": 455.0,
+   "stock": 60,
+   "created_at": "2026-01-01 10:28:00"
+  },
+  {
+   "id": 90,
+   "name": "Product 90",
+   "description": "Description for Product 90",
+   "price": 460.0,
+   "stock": 55,
+   "created_at": "2026-01-01 10:29:00"
+  },
+  {
+   "id": 91,
+   "name": "Product 91",
+   "description": "Description for Product 91",
+   "price": 465.0,
+   "stock": 50,
+   "created_at": "2026-01-01 10:30:00"
+  },
+  {
+   "id": 92,
+   "name": "Product 92",
+   "description": "Description for Product 92",
+   "price": 470.0,
+   "stock": 45,
+   "created_at": "2026-01-01 10:31:00"
+  },
+  {
+   "id": 93,
+   "name": "Product 93",
+   "description": "Description for Product 93",
+   "price": 475.0,
+   "stock": 40,
+   "created_at": "2026-01-01 10:32:00"
+  },
+  {
+   "id": 94,
+   "name": "Product 94",
+   "description": "Description for Product 94",
+   "price": 480.0,
+   "stock": 35,
+   "created_at": "2026-01-01 10:33:00"
+  },
+  {
+   "id": 95,
+   "name": "Product 95",
+   "description": "Description for Product 95",
+   "price": 485.0,
+   "stock": 30,
+   "created_at": "2026-01-01 10:34:00"
+  },
+  {
+   "id": 96,
+   "name": "Product 96",
+   "description": "Description for Product 96",
+   "price": 490.0,
+   "stock": 25,
+   "created_at": "2026-01-01 10:35:00"
+  },
+  {
+   "id": 97,
+   "name": "Product 97",
+   "description": "Description for Product 97",
+   "price": 495.0,
+   "stock": 20,
+   "created_at": "2026-01-01 10:36:00"
+  },
+  {
+   "id": 98,
+   "name": "Product 98",
+   "description": "Description for Product 98",
+   "price": 500.0,
+   "stock": 15,
+   "created_at": "2026-01-01 10:37:00"
+  },
+  {
+   "id": 99,
+   "name": "Product 99",
+   "description": "Description for Product 99",
+   "price": 505.0,
+   "stock": 10,
+   "created_at": "2026-01-01 10:38:00"
+  },
+  {
+   "id": 100,
+   "name": "Product 100",
+   "description": "Description for Product 100",
+   "price": 510.0,
+   "stock": 5,
+   "created_at": "2026-01-01 10:39:00"
+  }
+ ],
+ "users": [
+  {
+   "id": 2,
+   "username": "user2",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 3,
+   "username": "user3",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 4,
+   "username": "user4",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 5,
+   "username": "user5",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 6,
+   "username": "user6",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 7,
+   "username": "user7",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 8,
+   "username": "user8",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 9,
+   "username": "user9",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 10,
+   "username": "user10",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Admin"
+  },
+  {
+   "id": 11,
+   "username": "user11",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 12,
+   "username": "user12",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 13,
+   "username": "user13",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 14,
+   "username": "user14",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 15,
+   "username": "user15",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 16,
+   "username": "user16",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 17,
+   "username": "user17",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 18,
+   "username": "user18",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 19,
+   "username": "user19",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 20,
+   "username": "user20",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Admin"
+  },
+  {
+   "id": 21,
+   "username": "user21",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 22,
+   "username": "user22",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 23,
+   "username": "user23",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 24,
+   "username": "user24",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 25,
+   "username": "user25",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 26,
+   "username": "user26",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 27,
+   "username": "user27",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 28,
+   "username": "user28",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 29,
+   "username": "user29",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 30,
+   "username": "user30",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Admin"
+  },
+  {
+   "id": 31,
+   "username": "user31",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 32,
+   "username": "user32",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 33,
+   "username": "user33",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 34,
+   "username": "user34",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 35,
+   "username": "user35",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 36,
+   "username": "user36",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 37,
+   "username": "user37",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 38,
+   "username": "user38",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 39,
+   "username": "user39",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 40,
+   "username": "user40",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Admin"
+  },
+  {
+   "id": 41,
+   "username": "user41",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 42,
+   "username": "user42",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 43,
+   "username": "user43",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 44,
+   "username": "user44",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 45,
+   "username": "user45",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 46,
+   "username": "user46",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 47,
+   "username": "user47",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 48,
+   "username": "user48",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 49,
+   "username": "user49",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 50,
+   "username": "user50",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Admin"
+  },
+  {
+   "id": 51,
+   "username": "user51",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 52,
+   "username": "user52",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 53,
+   "username": "user53",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 54,
+   "username": "user54",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 55,
+   "username": "user55",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 56,
+   "username": "user56",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 57,
+   "username": "user57",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 58,
+   "username": "user58",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 59,
+   "username": "user59",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 60,
+   "username": "user60",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Admin"
+  },
+  {
+   "id": 61,
+   "username": "user61",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 62,
+   "username": "user62",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 63,
+   "username": "user63",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 64,
+   "username": "user64",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 65,
+   "username": "user65",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 66,
+   "username": "user66",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 67,
+   "username": "user67",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 68,
+   "username": "user68",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 69,
+   "username": "user69",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 70,
+   "username": "user70",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Admin"
+  },
+  {
+   "id": 71,
+   "username": "user71",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 72,
+   "username": "user72",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 73,
+   "username": "user73",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 74,
+   "username": "user74",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 75,
+   "username": "user75",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 76,
+   "username": "user76",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 77,
+   "username": "user77",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 78,
+   "username": "user78",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 79,
+   "username": "user79",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 80,
+   "username": "user80",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Admin"
+  },
+  {
+   "id": 81,
+   "username": "user81",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 82,
+   "username": "user82",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 83,
+   "username": "user83",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 84,
+   "username": "user84",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 85,
+   "username": "user85",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 86,
+   "username": "user86",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 87,
+   "username": "user87",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 88,
+   "username": "user88",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 89,
+   "username": "user89",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 90,
+   "username": "user90",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Admin"
+  },
+  {
+   "id": 91,
+   "username": "user91",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 92,
+   "username": "user92",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 93,
+   "username": "user93",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 94,
+   "username": "user94",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 95,
+   "username": "user95",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 96,
+   "username": "user96",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 97,
+   "username": "user97",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 98,
+   "username": "user98",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "Manager"
+  },
+  {
+   "id": 99,
+   "username": "user99",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  },
+  {
+   "id": 100,
+   "username": "user100",
+   "password": "$2a$11$1pYfA1Q3UrsChWUb7g99MutJQB1D09fmd30ciXaV1eyL9mu91/f7q",
+   "role": "User"
+  }
+ ],
+ "billings": [
+  {
+   "id": 1,
+   "invoice_no": "INV-2026-0001",
+   "customer_id": 1,
+   "bill_date": "2026-01-02 08:00:00",
+   "total_amount": 100.0,
+   "paid_amount": 100.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 2,
+   "invoice_no": "INV-2026-0002",
+   "customer_id": 2,
+   "bill_date": "2026-01-02 08:30:00",
+   "total_amount": 150.0,
+   "paid_amount": 50.0,
+   "balance_amount": 100.0,
+   "status": "Partial"
+  },
+  {
+   "id": 3,
+   "invoice_no": "INV-2026-0003",
+   "customer_id": 3,
+   "bill_date": "2026-01-02 09:00:00",
+   "total_amount": 200.0,
+   "paid_amount": 0.0,
+   "balance_amount": 200.0,
+   "status": "Pending"
+  },
+  {
+   "id": 4,
+   "invoice_no": "INV-2026-0004",
+   "customer_id": 4,
+   "bill_date": "2026-01-02 09:30:00",
+   "total_amount": 120.0,
+   "paid_amount": 120.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 5,
+   "invoice_no": "INV-2026-0005",
+   "customer_id": 5,
+   "bill_date": "2026-01-02 10:00:00",
+   "total_amount": 180.0,
+   "paid_amount": 0.0,
+   "balance_amount": 180.0,
+   "status": "Pending"
+  },
+  {
+   "id": 6,
+   "invoice_no": "INV-2026-0006",
+   "customer_id": 6,
+   "bill_date": "2026-01-02 10:30:00",
+   "total_amount": 250.0,
+   "paid_amount": 250.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 7,
+   "invoice_no": "INV-2026-0007",
+   "customer_id": 7,
+   "bill_date": "2026-01-02 11:00:00",
+   "total_amount": 90.0,
+   "paid_amount": 30.0,
+   "balance_amount": 60.0,
+   "status": "Partial"
+  },
+  {
+   "id": 8,
+   "invoice_no": "INV-2026-0008",
+   "customer_id": 8,
+   "bill_date": "2026-01-02 11:30:00",
+   "total_amount": 300.0,
+   "paid_amount": 300.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 9,
+   "invoice_no": "INV-2026-0009",
+   "customer_id": 9,
+   "bill_date": "2026-01-02 12:00:00",
+   "total_amount": 110.0,
+   "paid_amount": 0.0,
+   "balance_amount": 110.0,
+   "status": "Pending"
+  },
+  {
+   "id": 10,
+   "invoice_no": "INV-2026-0010",
+   "customer_id": 10,
+   "bill_date": "2026-01-02 12:30:00",
+   "total_amount": 160.0,
+   "paid_amount": 160.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 11,
+   "invoice_no": "INV-2026-0011",
+   "customer_id": 11,
+   "bill_date": "2026-01-02 13:00:00",
+   "total_amount": 220.0,
+   "paid_amount": 100.0,
+   "balance_amount": 120.0,
+   "status": "Partial"
+  },
+  {
+   "id": 12,
+   "invoice_no": "INV-2026-0012",
+   "customer_id": 12,
+   "bill_date": "2026-01-02 13:30:00",
+   "total_amount": 140.0,
+   "paid_amount": 0.0,
+   "balance_amount": 140.0,
+   "status": "Pending"
+  },
+  {
+   "id": 13,
+   "invoice_no": "INV-2026-0013",
+   "customer_id": 13,
+   "bill_date": "2026-01-02 14:00:00",
+   "total_amount": 280.0,
+   "paid_amount": 280.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 14,
+   "invoice_no": "INV-2026-0014",
+   "customer_id": 14,
+   "bill_date": "2026-01-02 14:30:00",
+   "total_amount": 130.0,
+   "paid_amount": 0.0,
+   "balance_amount": 130.0,
+   "status": "Pending"
+  },
+  {
+   "id": 15,
+   "invoice_no": "INV-2026-0015",
+   "customer_id": 15,
+   "bill_date": "2026-01-02 15:00:00",
+   "total_amount": 170.0,
+   "paid_amount": 170.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 16,
+   "invoice_no": "INV-2026-0016",
+   "customer_id": 16,
+   "bill_date": "2026-01-02 15:30:00",
+   "total_amount": 210.0,
+   "paid_amount": 100.0,
+   "balance_amount": 110.0,
+   "status": "Partial"
+  },
+  {
+   "id": 17,
+   "invoice_no": "INV-2026-0017",
+   "customer_id": 17,
+   "bill_date": "2026-01-02 16:00:00",
+   "total_amount": 190.0,
+   "paid_amount": 190.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 18,
+   "invoice_no": "INV-2026-0018",
+   "customer_id": 18,
+   "bill_date": "2026-01-02 16:30:00",
+   "total_amount": 260.0,
+   "paid_amount": 0.0,
+   "balance_amount": 260.0,
+   "status": "Pending"
+  },
+  {
+   "id": 19,
+   "invoice_no": "INV-2026-0019",
+   "customer_id": 19,
+   "bill_date": "2026-01-02 17:00:00",
+   "total_amount": 115.0,
+   "paid_amount": 115.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 20,
+   "invoice_no": "INV-2026-0020",
+   "customer_id": 20,
+   "bill_date": "2026-01-02 17:30:00",
+   "total_amount": 240.0,
+   "paid_amount": 120.0,
+   "balance_amount": 120.0,
+   "status": "Partial"
+  },
+  {
+   "id": 21,
+   "invoice_no": "INV-2026-0021",
+   "customer_id": 21,
+   "bill_date": "2026-01-03 08:00:00",
+   "total_amount": 105.0,
+   "paid_amount": 105.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 22,
+   "invoice_no": "INV-2026-0022",
+   "customer_id": 22,
+   "bill_date": "2026-01-03 08:30:00",
+   "total_amount": 155.0,
+   "paid_amount": 50.0,
+   "balance_amount": 105.0,
+   "status": "Partial"
+  },
+  {
+   "id": 23,
+   "invoice_no": "INV-2026-0023",
+   "customer_id": 23,
+   "bill_date": "2026-01-03 09:00:00",
+   "total_amount": 205.0,
+   "paid_amount": 0.0,
+   "balance_amount": 205.0,
+   "status": "Pending"
+  },
+  {
+   "id": 24,
+   "invoice_no": "INV-2026-0024",
+   "customer_id": 24,
+   "bill_date": "2026-01-03 09:30:00",
+   "total_amount": 125.0,
+   "paid_amount": 125.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 25,
+   "invoice_no": "INV-2026-0025",
+   "customer_id": 25,
+   "bill_date": "2026-01-03 10:00:00",
+   "total_amount": 185.0,
+   "paid_amount": 0.0,
+   "balance_amount": 185.0,
+   "status": "Pending"
+  },
+  {
+   "id": 26,
+   "invoice_no": "INV-2026-0026",
+   "customer_id": 26,
+   "bill_date": "2026-01-03 10:30:00",
+   "total_amount": 255.0,
+   "paid_amount": 255.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 27,
+   "invoice_no": "INV-2026-0027",
+   "customer_id": 27,
+   "bill_date": "2026-01-03 11:00:00",
+   "total_amount": 95.0,
+   "paid_amount": 30.0,
+   "balance_amount": 65.0,
+   "status": "Partial"
+  },
+  {
+   "id": 28,
+   "invoice_no": "INV-2026-0028",
+   "customer_id": 28,
+   "bill_date": "2026-01-03 11:30:00",
+   "total_amount": 305.0,
+   "paid_amount": 305.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 29,
+   "invoice_no": "INV-2026-0029",
+   "customer_id": 29,
+   "bill_date": "2026-01-03 12:00:00",
+   "total_amount": 115.0,
+   "paid_amount": 0.0,
+   "balance_amount": 115.0,
+   "status": "Pending"
+  },
+  {
+   "id": 30,
+   "invoice_no": "INV-2026-0030",
+   "customer_id": 30,
+   "bill_date": "2026-01-03 12:30:00",
+   "total_amount": 165.0,
+   "paid_amount": 165.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 31,
+   "invoice_no": "INV-2026-0031",
+   "customer_id": 31,
+   "bill_date": "2026-01-03 13:00:00",
+   "total_amount": 225.0,
+   "paid_amount": 100.0,
+   "balance_amount": 125.0,
+   "status": "Partial"
+  },
+  {
+   "id": 32,
+   "invoice_no": "INV-2026-0032",
+   "customer_id": 32,
+   "bill_date": "2026-01-03 13:30:00",
+   "total_amount": 145.0,
+   "paid_amount": 0.0,
+   "balance_amount": 145.0,
+   "status": "Pending"
+  },
+  {
+   "id": 33,
+   "invoice_no": "INV-2026-0033",
+   "customer_id": 33,
+   "bill_date": "2026-01-03 14:00:00",
+   "total_amount": 285.0,
+   "paid_amount": 285.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 34,
+   "invoice_no": "INV-2026-0034",
+   "customer_id": 34,
+   "bill_date": "2026-01-03 14:30:00",
+   "total_amount": 135.0,
+   "paid_amount": 0.0,
+   "balance_amount": 135.0,
+   "status": "Pending"
+  },
+  {
+   "id": 35,
+   "invoice_no": "INV-2026-0035",
+   "customer_id": 35,
+   "bill_date": "2026-01-03 15:00:00",
+   "total_amount": 175.0,
+   "paid_amount": 175.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 36,
+   "invoice_no": "INV-2026-0036",
+   "customer_id": 36,
+   "bill_date": "2026-01-03 15:30:00",
+   "total_amount": 215.0,
+   "paid_amount": 100.0,
+   "balance_amount": 115.0,
+   "status": "Partial"
+  },
+  {
+   "id": 37,
+   "invoice_no": "INV-2026-0037",
+   "customer_id": 37,
+   "bill_date": "2026-01-03 16:00:00",
+   "total_amount": 195.0,
+   "paid_amount": 195.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 38,
+   "invoice_no": "INV-2026-0038",
+   "customer_id": 38,
+   "bill_date": "2026-01-03 16:30:00",
+   "total_amount": 265.0,
+   "paid_amount": 0.0,
+   "balance_amount": 265.0,
+   "status": "Pending"
+  },
+  {
+   "id": 39,
+   "invoice_no": "INV-2026-0039",
+   "customer_id": 39,
+   "bill_date": "2026-01-03 17:00:00",
+   "total_amount": 120.0,
+   "paid_amount": 120.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 40,
+   "invoice_no": "INV-2026-0040",
+   "customer_id": 40,
+   "bill_date": "2026-01-03 17:30:00",
+   "total_amount": 245.0,
+   "paid_amount": 120.0,
+   "balance_amount": 125.0,
+   "status": "Partial"
+  },
+  {
+   "id": 41,
+   "invoice_no": "INV-2026-0041",
+   "customer_id": 41,
+   "bill_date": "2026-01-04 08:00:00",
+   "total_amount": 110.0,
+   "paid_amount": 110.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 42,
+   "invoice_no": "INV-2026-0042",
+   "customer_id": 42,
+   "bill_date": "2026-01-04 08:30:00",
+   "total_amount": 160.0,
+   "paid_amount": 50.0,
+   "balance_amount": 110.0,
+   "status": "Partial"
+  },
+  {
+   "id": 43,
+   "invoice_no": "INV-2026-0043",
+   "customer_id": 43,
+   "bill_date": "2026-01-04 09:00:00",
+   "total_amount": 210.0,
+   "paid_amount": 0.0,
+   "balance_amount": 210.0,
+   "status": "Pending"
+  },
+  {
+   "id": 44,
+   "invoice_no": "INV-2026-0044",
+   "customer_id": 44,
+   "bill_date": "2026-01-04 09:30:00",
+   "total_amount": 130.0,
+   "paid_amount": 130.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 45,
+   "invoice_no": "INV-2026-0045",
+   "customer_id": 45,
+   "bill_date": "2026-01-04 10:00:00",
+   "total_amount": 190.0,
+   "paid_amount": 0.0,
+   "balance_amount": 190.0,
+   "status": "Pending"
+  },
+  {
+   "id": 46,
+   "invoice_no": "INV-2026-0046",
+   "customer_id": 46,
+   "bill_date": "2026-01-04 10:30:00",
+   "total_amount": 260.0,
+   "paid_amount": 260.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 47,
+   "invoice_no": "INV-2026-0047",
+   "customer_id": 47,
+   "bill_date": "2026-01-04 11:00:00",
+   "total_amount": 100.0,
+   "paid_amount": 30.0,
+   "balance_amount": 70.0,
+   "status": "Partial"
+  },
+  {
+   "id": 48,
+   "invoice_no": "INV-2026-0048",
+   "customer_id": 48,
+   "bill_date": "2026-01-04 11:30:00",
+   "total_amount": 310.0,
+   "paid_amount": 310.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 49,
+   "invoice_no": "INV-2026-0049",
+   "customer_id": 49,
+   "bill_date": "2026-01-04 12:00:00",
+   "total_amount": 120.0,
+   "paid_amount": 0.0,
+   "balance_amount": 120.0,
+   "status": "Pending"
+  },
+  {
+   "id": 50,
+   "invoice_no": "INV-2026-0050",
+   "customer_id": 50,
+   "bill_date": "2026-01-04 12:30:00",
+   "total_amount": 170.0,
+   "paid_amount": 170.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 51,
+   "invoice_no": "INV-2026-0051",
+   "customer_id": 51,
+   "bill_date": "2026-01-04 13:00:00",
+   "total_amount": 230.0,
+   "paid_amount": 100.0,
+   "balance_amount": 130.0,
+   "status": "Partial"
+  },
+  {
+   "id": 52,
+   "invoice_no": "INV-2026-0052",
+   "customer_id": 52,
+   "bill_date": "2026-01-04 13:30:00",
+   "total_amount": 150.0,
+   "paid_amount": 0.0,
+   "balance_amount": 150.0,
+   "status": "Pending"
+  },
+  {
+   "id": 53,
+   "invoice_no": "INV-2026-0053",
+   "customer_id": 53,
+   "bill_date": "2026-01-04 14:00:00",
+   "total_amount": 290.0,
+   "paid_amount": 290.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 54,
+   "invoice_no": "INV-2026-0054",
+   "customer_id": 54,
+   "bill_date": "2026-01-04 14:30:00",
+   "total_amount": 140.0,
+   "paid_amount": 0.0,
+   "balance_amount": 140.0,
+   "status": "Pending"
+  },
+  {
+   "id": 55,
+   "invoice_no": "INV-2026-0055",
+   "customer_id": 55,
+   "bill_date": "2026-01-04 15:00:00",
+   "total_amount": 180.0,
+   "paid_amount": 180.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 56,
+   "invoice_no": "INV-2026-0056",
+   "customer_id": 56,
+   "bill_date": "2026-01-04 15:30:00",
+   "total_amount": 220.0,
+   "paid_amount": 100.0,
+   "balance_amount": 120.0,
+   "status": "Partial"
+  },
+  {
+   "id": 57,
+   "invoice_no": "INV-2026-0057",
+   "customer_id": 57,
+   "bill_date": "2026-01-04 16:00:00",
+   "total_amount": 200.0,
+   "paid_amount": 200.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 58,
+   "invoice_no": "INV-2026-0058",
+   "customer_id": 58,
+   "bill_date": "2026-01-04 16:30:00",
+   "total_amount": 270.0,
+   "paid_amount": 0.0,
+   "balance_amount": 270.0,
+   "status": "Pending"
+  },
+  {
+   "id": 59,
+   "invoice_no": "INV-2026-0059",
+   "customer_id": 59,
+   "bill_date": "2026-01-04 17:00:00",
+   "total_amount": 125.0,
+   "paid_amount": 125.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 60,
+   "invoice_no": "INV-2026-0060",
+   "customer_id": 60,
+   "bill_date": "2026-01-04 17:30:00",
+   "total_amount": 250.0,
+   "paid_amount": 120.0,
+   "balance_amount": 130.0,
+   "status": "Partial"
+  },
+  {
+   "id": 61,
+   "invoice_no": "INV-2026-0061",
+   "customer_id": 61,
+   "bill_date": "2026-01-05 08:00:00",
+   "total_amount": 115.0,
+   "paid_amount": 115.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 62,
+   "invoice_no": "INV-2026-0062",
+   "customer_id": 62,
+   "bill_date": "2026-01-05 08:30:00",
+   "total_amount": 165.0,
+   "paid_amount": 50.0,
+   "balance_amount": 115.0,
+   "status": "Partial"
+  },
+  {
+   "id": 63,
+   "invoice_no": "INV-2026-0063",
+   "customer_id": 63,
+   "bill_date": "2026-01-05 09:00:00",
+   "total_amount": 215.0,
+   "paid_amount": 0.0,
+   "balance_amount": 215.0,
+   "status": "Pending"
+  },
+  {
+   "id": 64,
+   "invoice_no": "INV-2026-0064",
+   "customer_id": 64,
+   "bill_date": "2026-01-05 09:30:00",
+   "total_amount": 135.0,
+   "paid_amount": 135.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 65,
+   "invoice_no": "INV-2026-0065",
+   "customer_id": 65,
+   "bill_date": "2026-01-05 10:00:00",
+   "total_amount": 195.0,
+   "paid_amount": 0.0,
+   "balance_amount": 195.0,
+   "status": "Pending"
+  },
+  {
+   "id": 66,
+   "invoice_no": "INV-2026-0066",
+   "customer_id": 66,
+   "bill_date": "2026-01-05 10:30:00",
+   "total_amount": 265.0,
+   "paid_amount": 265.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 67,
+   "invoice_no": "INV-2026-0067",
+   "customer_id": 67,
+   "bill_date": "2026-01-05 11:00:00",
+   "total_amount": 105.0,
+   "paid_amount": 30.0,
+   "balance_amount": 75.0,
+   "status": "Partial"
+  },
+  {
+   "id": 68,
+   "invoice_no": "INV-2026-0068",
+   "customer_id": 68,
+   "bill_date": "2026-01-05 11:30:00",
+   "total_amount": 315.0,
+   "paid_amount": 315.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 69,
+   "invoice_no": "INV-2026-0069",
+   "customer_id": 69,
+   "bill_date": "2026-01-05 12:00:00",
+   "total_amount": 125.0,
+   "paid_amount": 0.0,
+   "balance_amount": 125.0,
+   "status": "Pending"
+  },
+  {
+   "id": 70,
+   "invoice_no": "INV-2026-0070",
+   "customer_id": 70,
+   "bill_date": "2026-01-05 12:30:00",
+   "total_amount": 175.0,
+   "paid_amount": 175.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 71,
+   "invoice_no": "INV-2026-0071",
+   "customer_id": 71,
+   "bill_date": "2026-01-05 13:00:00",
+   "total_amount": 235.0,
+   "paid_amount": 100.0,
+   "balance_amount": 135.0,
+   "status": "Partial"
+  },
+  {
+   "id": 72,
+   "invoice_no": "INV-2026-0072",
+   "customer_id": 72,
+   "bill_date": "2026-01-05 13:30:00",
+   "total_amount": 155.0,
+   "paid_amount": 0.0,
+   "balance_amount": 155.0,
+   "status": "Pending"
+  },
+  {
+   "id": 73,
+   "invoice_no": "INV-2026-0073",
+   "customer_id": 73,
+   "bill_date": "2026-01-05 14:00:00",
+   "total_amount": 295.0,
+   "paid_amount": 295.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 74,
+   "invoice_no": "INV-2026-0074",
+   "customer_id": 74,
+   "bill_date": "2026-01-05 14:30:00",
+   "total_amount": 145.0,
+   "paid_amount": 0.0,
+   "balance_amount": 145.0,
+   "status": "Pending"
+  },
+  {
+   "id": 75,
+   "invoice_no": "INV-2026-0075",
+   "customer_id": 75,
+   "bill_date": "2026-01-05 15:00:00",
+   "total_amount": 185.0,
+   "paid_amount": 185.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 76,
+   "invoice_no": "INV-2026-0076",
+   "customer_id": 76,
+   "bill_date": "2026-01-05 15:30:00",
+   "total_amount": 225.0,
+   "paid_amount": 100.0,
+   "balance_amount": 125.0,
+   "status": "Partial"
+  },
+  {
+   "id": 77,
+   "invoice_no": "INV-2026-0077",
+   "customer_id": 77,
+   "bill_date": "2026-01-05 16:00:00",
+   "total_amount": 205.0,
+   "paid_amount": 205.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 78,
+   "invoice_no": "INV-2026-0078",
+   "customer_id": 78,
+   "bill_date": "2026-01-05 16:30:00",
+   "total_amount": 275.0,
+   "paid_amount": 0.0,
+   "balance_amount": 275.0,
+   "status": "Pending"
+  },
+  {
+   "id": 79,
+   "invoice_no": "INV-2026-0079",
+   "customer_id": 79,
+   "bill_date": "2026-01-05 17:00:00",
+   "total_amount": 130.0,
+   "paid_amount": 130.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 80,
+   "invoice_no": "INV-2026-0080",
+   "customer_id": 80,
+   "bill_date": "2026-01-05 17:30:00",
+   "total_amount": 255.0,
+   "paid_amount": 120.0,
+   "balance_amount": 135.0,
+   "status": "Partial"
+  },
+  {
+   "id": 81,
+   "invoice_no": "INV-2026-0081",
+   "customer_id": 81,
+   "bill_date": "2026-01-06 08:00:00",
+   "total_amount": 120.0,
+   "paid_amount": 120.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 82,
+   "invoice_no": "INV-2026-0082",
+   "customer_id": 82,
+   "bill_date": "2026-01-06 08:30:00",
+   "total_amount": 170.0,
+   "paid_amount": 50.0,
+   "balance_amount": 120.0,
+   "status": "Partial"
+  },
+  {
+   "id": 83,
+   "invoice_no": "INV-2026-0083",
+   "customer_id": 83,
+   "bill_date": "2026-01-06 09:00:00",
+   "total_amount": 220.0,
+   "paid_amount": 0.0,
+   "balance_amount": 220.0,
+   "status": "Pending"
+  },
+  {
+   "id": 84,
+   "invoice_no": "INV-2026-0084",
+   "customer_id": 84,
+   "bill_date": "2026-01-06 09:30:00",
+   "total_amount": 140.0,
+   "paid_amount": 140.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 85,
+   "invoice_no": "INV-2026-0085",
+   "customer_id": 85,
+   "bill_date": "2026-01-06 10:00:00",
+   "total_amount": 200.0,
+   "paid_amount": 0.0,
+   "balance_amount": 200.0,
+   "status": "Pending"
+  },
+  {
+   "id": 86,
+   "invoice_no": "INV-2026-0086",
+   "customer_id": 86,
+   "bill_date": "2026-01-06 10:30:00",
+   "total_amount": 270.0,
+   "paid_amount": 270.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 87,
+   "invoice_no": "INV-2026-0087",
+   "customer_id": 87,
+   "bill_date": "2026-01-06 11:00:00",
+   "total_amount": 110.0,
+   "paid_amount": 30.0,
+   "balance_amount": 80.0,
+   "status": "Partial"
+  },
+  {
+   "id": 88,
+   "invoice_no": "INV-2026-0088",
+   "customer_id": 88,
+   "bill_date": "2026-01-06 11:30:00",
+   "total_amount": 320.0,
+   "paid_amount": 320.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 89,
+   "invoice_no": "INV-2026-0089",
+   "customer_id": 89,
+   "bill_date": "2026-01-06 12:00:00",
+   "total_amount": 130.0,
+   "paid_amount": 0.0,
+   "balance_amount": 130.0,
+   "status": "Pending"
+  },
+  {
+   "id": 90,
+   "invoice_no": "INV-2026-0090",
+   "customer_id": 90,
+   "bill_date": "2026-01-06 12:30:00",
+   "total_amount": 180.0,
+   "paid_amount": 180.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 91,
+   "invoice_no": "INV-2026-0091",
+   "customer_id": 91,
+   "bill_date": "2026-01-06 13:00:00",
+   "total_amount": 240.0,
+   "paid_amount": 100.0,
+   "balance_amount": 140.0,
+   "status": "Partial"
+  },
+  {
+   "id": 92,
+   "invoice_no": "INV-2026-0092",
+   "customer_id": 92,
+   "bill_date": "2026-01-06 13:30:00",
+   "total_amount": 160.0,
+   "paid_amount": 0.0,
+   "balance_amount": 160.0,
+   "status": "Pending"
+  },
+  {
+   "id": 93,
+   "invoice_no": "INV-2026-0093",
+   "customer_id": 93,
+   "bill_date": "2026-01-06 14:00:00",
+   "total_amount": 300.0,
+   "paid_amount": 300.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 94,
+   "invoice_no": "INV-2026-0094",
+   "customer_id": 94,
+   "bill_date": "2026-01-06 14:30:00",
+   "total_amount": 150.0,
+   "paid_amount": 0.0,
+   "balance_amount": 150.0,
+   "status": "Pending"
+  },
+  {
+   "id": 95,
+   "invoice_no": "INV-2026-0095",
+   "customer_id": 95,
+   "bill_date": "2026-01-06 15:00:00",
+   "total_amount": 190.0,
+   "paid_amount": 190.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 96,
+   "invoice_no": "INV-2026-0096",
+   "customer_id": 96,
+   "bill_date": "2026-01-06 15:30:00",
+   "total_amount": 230.0,
+   "paid_amount": 100.0,
+   "balance_amount": 130.0,
+   "status": "Partial"
+  },
+  {
+   "id": 97,
+   "invoice_no": "INV-2026-0097",
+   "customer_id": 97,
+   "bill_date": "2026-01-06 16:00:00",
+   "total_amount": 210.0,
+   "paid_amount": 210.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 98,
+   "invoice_no": "INV-2026-0098",
+   "customer_id": 98,
+   "bill_date": "2026-01-06 16:30:00",
+   "total_amount": 280.0,
+   "paid_amount": 0.0,
+   "balance_amount": 280.0,
+   "status": "Pending"
+  },
+  {
+   "id": 99,
+   "invoice_no": "INV-2026-0099",
+   "customer_id": 99,
+   "bill_date": "2026-01-06 17:00:00",
+   "total_amount": 135.0,
+   "paid_amount": 135.0,
+   "balance_amount": 0.0,
+   "status": "Paid"
+  },
+  {
+   "id": 100,
+   "invoice_no": "INV-2026-0100",
+   "customer_id": 100,
+   "bill_date": "2026-01-06 17:30:00",
+   "total_amount": 260.0,
+   "paid_amount": 120.0,
+   "balance_amount": 140.0,
+   "status": "Partial"
+  }
+ ],
+ "billing_items": [
+  {
+   "id": 1,
+   "billing_id": 1,
+   "product_id": 1,
+   "quantity": 2,
+   "unit_price": 15.0,
+   "line_total": 30.0
+  },
+  {
+   "id": 2,
+   "billing_id": 1,
+   "product_id": 2,
+   "quantity": 1,
+   "unit_price": 20.0,
+   "line_total": 20.0
+  },
+  {
+   "id": 3,
+   "billing_id": 2,
+   "product_id": 3,
+   "quantity": 2,
+   "unit_price": 25.0,
+   "line_total": 50.0
+  },
+  {
+   "id": 4,
+   "billing_id": 2,
+   "product_id": 4,
+   "quantity": 1,
+   "unit_price": 30.0,
+   "line_total": 30.0
+  },
+  {
+   "id": 5,
+   "billing_id": 3,
+   "product_id": 5,
+   "quantity": 2,
+   "unit_price": 35.0,
+   "line_total": 70.0
+  },
+  {
+   "id": 6,
+   "billing_id": 3,
+   "product_id": 6,
+   "quantity": 1,
+   "unit_price": 40.0,
+   "line_total": 40.0
+  },
+  {
+   "id": 7,
+   "billing_id": 4,
+   "product_id": 7,
+   "quantity": 2,
+   "unit_price": 45.0,
+   "line_total": 90.0
+  },
+  {
+   "id": 8,
+   "billing_id": 4,
+   "product_id": 8,
+   "quantity": 1,
+   "unit_price": 50.0,
+   "line_total": 50.0
+  },
+  {
+   "id": 9,
+   "billing_id": 5,
+   "product_id": 9,
+   "quantity": 2,
+   "unit_price": 55.0,
+   "line_total": 110.0
+  },
+  {
+   "id": 10,
+   "billing_id": 5,
+   "product_id": 10,
+   "quantity": 1,
+   "unit_price": 60.0,
+   "line_total": 60.0
+  },
+  {
+   "id": 11,
+   "billing_id": 6,
+   "product_id": 11,
+   "quantity": 2,
+   "unit_price": 65.0,
+   "line_total": 130.0
+  },
+  {
+   "id": 12,
+   "billing_id": 6,
+   "product_id": 12,
+   "quantity": 1,
+   "unit_price": 70.0,
+   "line_total": 70.0
+  },
+  {
+   "id": 13,
+   "billing_id": 7,
+   "product_id": 13,
+   "quantity": 2,
+   "unit_price": 75.0,
+   "line_total": 150.0
+  },
+  {
+   "id": 14,
+   "billing_id": 7,
+   "product_id": 14,
+   "quantity": 1,
+   "unit_price": 80.0,
+   "line_total": 80.0
+  },
+  {
+   "id": 15,
+   "billing_id": 8,
+   "product_id": 15,
+   "quantity": 2,
+   "unit_price": 85.0,
+   "line_total": 170.0
+  },
+  {
+   "id": 16,
+   "billing_id": 8,
+   "product_id": 16,
+   "quantity": 1,
+   "unit_price": 90.0,
+   "line_total": 90.0
+  },
+  {
+   "id": 17,
+   "billing_id": 9,
+   "product_id": 17,
+   "quantity": 2,
+   "unit_price": 95.0,
+   "line_total": 190.0
+  },
+  {
+   "id": 18,
+   "billing_id": 9,
+   "product_id": 18,
+   "quantity": 1,
+   "unit_price": 100.0,
+   "line_total": 100.0
+  },
+  {
+   "id": 19,
+   "billing_id": 10,
+   "product_id": 19,
+   "quantity": 2,
+   "unit_price": 105.0,
+   "line_total": 210.0
+  },
+  {
+   "id": 20,
+   "billing_id": 10,
+   "product_id": 20,
+   "quantity": 1,
+   "unit_price": 110.0,
+   "line_total": 110.0
+  },
+  {
+   "id": 21,
+   "billing_id": 11,
+   "product_id": 21,
+   "quantity": 2,
+   "unit_price": 115.0,
+   "line_total": 230.0
+  },
+  {
+   "id": 22,
+   "billing_id": 11,
+   "product_id": 22,
+   "quantity": 1,
+   "unit_price": 120.0,
+   "line_total": 120.0
+  },
+  {
+   "id": 23,
+   "billing_id": 12,
+   "product_id": 23,
+   "quantity": 2,
+   "unit_price": 125.0,
+   "line_total": 250.0
+  },
+  {
+   "id": 24,
+   "billing_id": 12,
+   "product_id": 24,
+   "quantity": 1,
+   "unit_price": 130.0,
+   "line_total": 130.0
+  },
+  {
+   "id": 25,
+   "billing_id": 13,
+   "product_id": 25,
+   "quantity": 2,
+   "unit_price": 135.0,
+   "line_total": 270.0
+  },
+  {
+   "id": 26,
+   "billing_id": 13,
+   "product_id": 26,
+   "quantity": 1,
+   "unit_price": 140.0,
+   "line_total": 140.0
+  },
+  {
+   "id": 27,
+   "billing_id": 14,
+   "product_id": 27,
+   "quantity": 2,
+   "unit_price": 145.0,
+   "line_total": 290.0
+  },
+  {
+   "id": 28,
+   "billing_id": 14,
+   "product_id": 28,
+   "quantity": 1,
+   "unit_price": 150.0,
+   "line_total": 150.0
+  },
+  {
+   "id": 29,
+   "billing_id": 15,
+   "product_id": 29,
+   "quantity": 2,
+   "unit_price": 155.0,
+   "line_total": 310.0
+  },
+  {
+   "id": 30,
+   "billing_id": 15,
+   "product_id": 30,
+   "quantity": 1,
+   "unit_price": 160.0,
+   "line_total": 160.0
+  },
+  {
+   "id": 31,
+   "billing_id": 16,
+   "product_id": 31,
+   "quantity": 2,
+   "unit_price": 165.0,
+   "line_total": 330.0
+  },
+  {
+   "id": 32,
+   "billing_id": 16,
+   "product_id": 32,
+   "quantity": 1,
+   "unit_price": 170.0,
+   "line_total": 170.0
+  },
+  {
+   "id": 33,
+   "billing_id": 17,
+   "product_id": 33,
+   "quantity": 2,
+   "unit_price": 175.0,
+   "line_total": 350.0
+  },
+  {
+   "id": 34,
+   "billing_id": 17,
+   "product_id": 34,
+   "quantity": 1,
+   "unit_price": 180.0,
+   "line_total": 180.0
+  },
+  {
+   "id": 35,
+   "billing_id": 18,
+   "product_id": 35,
+   "quantity": 2,
+   "unit_price": 185.0,
+   "line_total": 370.0
+  },
+  {
+   "id": 36,
+   "billing_id": 18,
+   "product_id": 36,
+   "quantity": 1,
+   "unit_price": 190.0,
+   "line_total": 190.0
+  },
+  {
+   "id": 37,
+   "billing_id": 19,
+   "product_id": 37,
+   "quantity": 2,
+   "unit_price": 195.0,
+   "line_total": 390.0
+  },
+  {
+   "id": 38,
+   "billing_id": 19,
+   "product_id": 38,
+   "quantity": 1,
+   "unit_price": 200.0,
+   "line_total": 200.0
+  },
+  {
+   "id": 39,
+   "billing_id": 20,
+   "product_id": 39,
+   "quantity": 2,
+   "unit_price": 205.0,
+   "line_total": 410.0
+  },
+  {
+   "id": 40,
+   "billing_id": 20,
+   "product_id": 40,
+   "quantity": 1,
+   "unit_price": 210.0,
+   "line_total": 210.0
+  },
+  {
+   "id": 41,
+   "billing_id": 21,
+   "product_id": 41,
+   "quantity": 2,
+   "unit_price": 215.0,
+   "line_total": 430.0
+  },
+  {
+   "id": 42,
+   "billing_id": 21,
+   "product_id": 42,
+   "quantity": 1,
+   "unit_price": 220.0,
+   "line_total": 220.0
+  },
+  {
+   "id": 43,
+   "billing_id": 22,
+   "product_id": 43,
+   "quantity": 2,
+   "unit_price": 225.0,
+   "line_total": 450.0
+  },
+  {
+   "id": 44,
+   "billing_id": 22,
+   "product_id": 44,
+   "quantity": 1,
+   "unit_price": 230.0,
+   "line_total": 230.0
+  },
+  {
+   "id": 45,
+   "billing_id": 23,
+   "product_id": 45,
+   "quantity": 2,
+   "unit_price": 235.0,
+   "line_total": 470.0
+  },
+  {
+   "id": 46,
+   "billing_id": 23,
+   "product_id": 46,
+   "quantity": 1,
+   "unit_price": 240.0,
+   "line_total": 240.0
+  },
+  {
+   "id": 47,
+   "billing_id": 24,
+   "product_id": 47,
+   "quantity": 2,
+   "unit_price": 245.0,
+   "line_total": 490.0
+  },
+  {
+   "id": 48,
+   "billing_id": 24,
+   "product_id": 48,
+   "quantity": 1,
+   "unit_price": 250.0,
+   "line_total": 250.0
+  },
+  {
+   "id": 49,
+   "billing_id": 25,
+   "product_id": 49,
+   "quantity": 2,
+   "unit_price": 255.0,
+   "line_total": 510.0
+  },
+  {
+   "id": 50,
+   "billing_id": 25,
+   "product_id": 50,
+   "quantity": 1,
+   "unit_price": 260.0,
+   "line_total": 260.0
+  },
+  {
+   "id": 51,
+   "billing_id": 26,
+   "product_id": 51,
+   "quantity": 2,
+   "unit_price": 265.0,
+   "line_total": 530.0
+  },
+  {
+   "id": 52,
+   "billing_id": 26,
+   "product_id": 52,
+   "quantity": 1,
+   "unit_price": 270.0,
+   "line_total": 270.0
+  },
+  {
+   "id": 53,
+   "billing_id": 27,
+   "product_id": 53,
+   "quantity": 2,
+   "unit_price": 275.0,
+   "line_total": 550.0
+  },
+  {
+   "id": 54,
+   "billing_id": 27,
+   "product_id": 54,
+   "quantity": 1,
+   "unit_price": 280.0,
+   "line_total": 280.0
+  },
+  {
+   "id": 55,
+   "billing_id": 28,
+   "product_id": 55,
+   "quantity": 2,
+   "unit_price": 285.0,
+   "line_total": 570.0
+  },
+  {
+   "id": 56,
+   "billing_id": 28,
+   "product_id": 56,
+   "quantity": 1,
+   "unit_price": 290.0,
+   "line_total": 290.0
+  },
+  {
+   "id": 57,
+   "billing_id": 29,
+   "product_id": 57,
+   "quantity": 2,
+   "unit_price": 295.0,
+   "line_total": 590.0
+  },
+  {
+   "id": 58,
+   "billing_id": 29,
+   "product_id": 58,
+   "quantity": 1,
+   "unit_price": 300.0,
+   "line_total": 300.0
+  },
+  {
+   "id": 59,
+   "billing_id": 30,
+   "product_id": 59,
+   "quantity": 2,
+   "unit_price": 305.0,
+   "line_total": 610.0
+  },
+  {
+   "id": 60,
+   "billing_id": 30,
+   "product_id": 60,
+   "quantity": 1,
+   "unit_price": 310.0,
+   "line_total": 310.0
+  },
+  {
+   "id": 61,
+   "billing_id": 31,
+   "product_id": 61,
+   "quantity": 2,
+   "unit_price": 315.0,
+   "line_total": 630.0
+  },
+  {
+   "id": 62,
+   "billing_id": 31,
+   "product_id": 62,
+   "quantity": 1,
+   "unit_price": 320.0,
+   "line_total": 320.0
+  },
+  {
+   "id": 63,
+   "billing_id": 32,
+   "product_id": 63,
+   "quantity": 2,
+   "unit_price": 325.0,
+   "line_total": 650.0
+  },
+  {
+   "id": 64,
+   "billing_id": 32,
+   "product_id": 64,
+   "quantity": 1,
+   "unit_price": 330.0,
+   "line_total": 330.0
+  },
+  {
+   "id": 65,
+   "billing_id": 33,
+   "product_id": 65,
+   "quantity": 2,
+   "unit_price": 335.0,
+   "line_total": 670.0
+  },
+  {
+   "id": 66,
+   "billing_id": 33,
+   "product_id": 66,
+   "quantity": 1,
+   "unit_price": 340.0,
+   "line_total": 340.0
+  },
+  {
+   "id": 67,
+   "billing_id": 34,
+   "product_id": 67,
+   "quantity": 2,
+   "unit_price": 345.0,
+   "line_total": 690.0
+  },
+  {
+   "id": 68,
+   "billing_id": 34,
+   "product_id": 68,
+   "quantity": 1,
+   "unit_price": 350.0,
+   "line_total": 350.0
+  },
+  {
+   "id": 69,
+   "billing_id": 35,
+   "product_id": 69,
+   "quantity": 2,
+   "unit_price": 355.0,
+   "line_total": 710.0
+  },
+  {
+   "id": 70,
+   "billing_id": 35,
+   "product_id": 70,
+   "quantity": 1,
+   "unit_price": 360.0,
+   "line_total": 360.0
+  },
+  {
+   "id": 71,
+   "billing_id": 36,
+   "product_id": 71,
+   "quantity": 2,
+   "unit_price": 365.0,
+   "line_total": 730.0
+  },
+  {
+   "id": 72,
+   "billing_id": 36,
+   "product_id": 72,
+   "quantity": 1,
+   "unit_price": 370.0,
+   "line_total": 370.0
+  },
+  {
+   "id": 73,
+   "billing_id": 37,
+   "product_id": 73,
+   "quantity": 2,
+   "unit_price": 375.0,
+   "line_total": 750.0
+  },
+  {
+   "id": 74,
+   "billing_id": 37,
+   "product_id": 74,
+   "quantity": 1,
+   "unit_price": 380.0,
+   "line_total": 380.0
+  },
+  {
+   "id": 75,
+   "billing_id": 38,
+   "product_id": 75,
+   "quantity": 2,
+   "unit_price": 385.0,
+   "line_total": 770.0
+  },
+  {
+   "id": 76,
+   "billing_id": 38,
+   "product_id": 76,
+   "quantity": 1,
+   "unit_price": 390.0,
+   "line_total": 390.0
+  },
+  {
+   "id": 77,
+   "billing_id": 39,
+   "product_id": 77,
+   "quantity": 2,
+   "unit_price": 395.0,
+   "line_total": 790.0
+  },
+  {
+   "id": 78,
+   "billing_id": 39,
+   "product_id": 78,
+   "quantity": 1,
+   "unit_price": 400.0,
+   "line_total": 400.0
+  },
+  {
+   "id": 79,
+   "billing_id": 40,
+   "product_id": 79,
+   "quantity": 2,
+   "unit_price": 405.0,
+   "line_total": 810.0
+  },
+  {
+   "id": 80,
+   "billing_id": 40,
+   "product_id": 80,
+   "quantity": 1,
+   "unit_price": 410.0,
+   "line_total": 410.0
+  },
+  {
+   "id": 81,
+   "billing_id": 41,
+   "product_id": 81,
+   "quantity": 2,
+   "unit_price": 415.0,
+   "line_total": 830.0
+  },
+  {
+   "id": 82,
+   "billing_id": 41,
+   "product_id": 82,
+   "quantity": 1,
+   "unit_price": 420.0,
+   "line_total": 420.0
+  },
+  {
+   "id": 83,
+   "billing_id": 42,
+   "product_id": 83,
+   "quantity": 2,
+   "unit_price": 425.0,
+   "line_total": 850.0
+  },
+  {
+   "id": 84,
+   "billing_id": 42,
+   "product_id": 84,
+   "quantity": 1,
+   "unit_price": 430.0,
+   "line_total": 430.0
+  },
+  {
+   "id": 85,
+   "billing_id": 43,
+   "product_id": 85,
+   "quantity": 2,
+   "unit_price": 435.0,
+   "line_total": 870.0
+  },
+  {
+   "id": 86,
+   "billing_id": 43,
+   "product_id": 86,
+   "quantity": 1,
+   "unit_price": 440.0,
+   "line_total": 440.0
+  },
+  {
+   "id": 87,
+   "billing_id": 44,
+   "product_id": 87,
+   "quantity": 2,
+   "unit_price": 445.0,
+   "line_total": 890.0
+  },
+  {
+   "id": 88,
+   "billing_id": 44,
+   "product_id": 88,
+   "quantity": 1,
+   "unit_price": 450.0,
+   "line_total": 450.0
+  },
+  {
+   "id": 89,
+   "billing_id": 45,
+   "product_id": 89,
+   "quantity": 2,
+   "unit_price": 455.0,
+   "line_total": 910.0
+  },
+  {
+   "id": 90,
+   "billing_id": 45,
+   "product_id": 90,
+   "quantity": 1,
+   "unit_price": 460.0,
+   "line_total": 460.0
+  },
+  {
+   "id": 91,
+   "billing_id": 46,
+   "product_id": 91,
+   "quantity": 2,
+   "unit_price": 465.0,
+   "line_total": 930.0
+  },
+  {
+   "id": 92,
+   "billing_id": 46,
+   "product_id": 92,
+   "quantity": 1,
+   "unit_price": 470.0,
+   "line_total": 470.0
+  },
+  {
+   "id": 93,
+   "billing_id": 47,
+   "product_id": 93,
+   "quantity": 2,
+   "unit_price": 475.0,
+   "line_total": 950.0
+  },
+  {
+   "id": 94,
+   "billing_id": 47,
+   "product_id": 94,
+   "quantity": 1,
+   "unit_price": 480.0,
+   "line_total": 480.0
+  },
+  {
+   "id": 95,
+   "billing_id": 48,
+   "product_id": 95,
+   "quantity": 2,
+   "unit_price": 485.0,
+   "line_total": 970.0
+  },
+  {
+   "id": 96,
+   "billing_id": 48,
+   "product_id": 96,
+   "quantity": 1,
+   "unit_price": 490.0,
+   "line_total": 490.0
+  },
+  {
+   "id": 97,
+   "billing_id": 49,
+   "product_id": 97,
+   "quantity": 2,
+   "unit_price": 495.0,
+   "line_total": 990.0
+  },
+  {
+   "id": 98,
+   "billing_id": 49,
+   "product_id": 98,
+   "quantity": 1,
+   "unit_price": 500.0,
+   "line_total": 500.0
+  },
+  {
+   "id": 99,
+   "billing_id": 50,
+   "product_id": 99,
+   "quantity": 2,
+   "unit_price": 505.0,
+   "line_total": 1010.0
+  },
+  {
+   "id": 100,
+   "billing_id": 50,
+   "product_id": 100,
+   "quantity": 1,
+   "unit_price": 510.0,
+   "line_total": 510.0
+  }
+ ],
+ "payments": [
+  {
+   "id": 1,
+   "billing_id": 1,
+   "payment_date": "2026-01-02 08:05:00",
+   "amount": 100.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0001"
+  },
+  {
+   "id": 2,
+   "billing_id": 2,
+   "payment_date": "2026-01-02 08:35:00",
+   "amount": 50.0,
+   "method": "Cash",
+   "reference": "REF-CS-0002"
+  },
+  {
+   "id": 3,
+   "billing_id": 4,
+   "payment_date": "2026-01-02 09:35:00",
+   "amount": 120.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0003"
+  },
+  {
+   "id": 4,
+   "billing_id": 6,
+   "payment_date": "2026-01-02 10:35:00",
+   "amount": 250.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0004"
+  },
+  {
+   "id": 5,
+   "billing_id": 7,
+   "payment_date": "2026-01-02 11:05:00",
+   "amount": 30.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0005"
+  },
+  {
+   "id": 6,
+   "billing_id": 8,
+   "payment_date": "2026-01-02 11:35:00",
+   "amount": 300.0,
+   "method": "Cash",
+   "reference": "REF-CS-0006"
+  },
+  {
+   "id": 7,
+   "billing_id": 10,
+   "payment_date": "2026-01-02 12:35:00",
+   "amount": 160.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0007"
+  },
+  {
+   "id": 8,
+   "billing_id": 11,
+   "payment_date": "2026-01-02 13:05:00",
+   "amount": 100.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0008"
+  },
+  {
+   "id": 9,
+   "billing_id": 13,
+   "payment_date": "2026-01-02 14:05:00",
+   "amount": 280.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0009"
+  },
+  {
+   "id": 10,
+   "billing_id": 15,
+   "payment_date": "2026-01-02 15:05:00",
+   "amount": 170.0,
+   "method": "Cash",
+   "reference": "REF-CS-0010"
+  },
+  {
+   "id": 11,
+   "billing_id": 16,
+   "payment_date": "2026-01-02 15:35:00",
+   "amount": 100.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0011"
+  },
+  {
+   "id": 12,
+   "billing_id": 17,
+   "payment_date": "2026-01-02 16:05:00",
+   "amount": 190.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0012"
+  },
+  {
+   "id": 13,
+   "billing_id": 19,
+   "payment_date": "2026-01-02 17:05:00",
+   "amount": 115.0,
+   "method": "Cash",
+   "reference": "REF-CS-0013"
+  },
+  {
+   "id": 14,
+   "billing_id": 20,
+   "payment_date": "2026-01-02 17:35:00",
+   "amount": 120.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0014"
+  },
+  {
+   "id": 15,
+   "billing_id": 21,
+   "payment_date": "2026-01-03 08:05:00",
+   "amount": 105.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0015"
+  },
+  {
+   "id": 16,
+   "billing_id": 22,
+   "payment_date": "2026-01-03 08:35:00",
+   "amount": 50.0,
+   "method": "Cash",
+   "reference": "REF-CS-0016"
+  },
+  {
+   "id": 17,
+   "billing_id": 24,
+   "payment_date": "2026-01-03 09:35:00",
+   "amount": 125.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0017"
+  },
+  {
+   "id": 18,
+   "billing_id": 26,
+   "payment_date": "2026-01-03 10:35:00",
+   "amount": 255.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0018"
+  },
+  {
+   "id": 19,
+   "billing_id": 27,
+   "payment_date": "2026-01-03 11:05:00",
+   "amount": 30.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0019"
+  },
+  {
+   "id": 20,
+   "billing_id": 28,
+   "payment_date": "2026-01-03 11:35:00",
+   "amount": 305.0,
+   "method": "Cash",
+   "reference": "REF-CS-0020"
+  },
+  {
+   "id": 21,
+   "billing_id": 30,
+   "payment_date": "2026-01-03 12:35:00",
+   "amount": 165.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0021"
+  },
+  {
+   "id": 22,
+   "billing_id": 31,
+   "payment_date": "2026-01-03 13:05:00",
+   "amount": 100.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0022"
+  },
+  {
+   "id": 23,
+   "billing_id": 33,
+   "payment_date": "2026-01-03 14:05:00",
+   "amount": 285.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0023"
+  },
+  {
+   "id": 24,
+   "billing_id": 35,
+   "payment_date": "2026-01-03 15:05:00",
+   "amount": 175.0,
+   "method": "Cash",
+   "reference": "REF-CS-0024"
+  },
+  {
+   "id": 25,
+   "billing_id": 36,
+   "payment_date": "2026-01-03 15:35:00",
+   "amount": 100.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0025"
+  },
+  {
+   "id": 26,
+   "billing_id": 37,
+   "payment_date": "2026-01-03 16:05:00",
+   "amount": 195.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0026"
+  },
+  {
+   "id": 27,
+   "billing_id": 39,
+   "payment_date": "2026-01-03 17:05:00",
+   "amount": 120.0,
+   "method": "Cash",
+   "reference": "REF-CS-0027"
+  },
+  {
+   "id": 28,
+   "billing_id": 40,
+   "payment_date": "2026-01-03 17:35:00",
+   "amount": 120.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0028"
+  },
+  {
+   "id": 29,
+   "billing_id": 41,
+   "payment_date": "2026-01-04 08:05:00",
+   "amount": 110.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0029"
+  },
+  {
+   "id": 30,
+   "billing_id": 42,
+   "payment_date": "2026-01-04 08:35:00",
+   "amount": 50.0,
+   "method": "Cash",
+   "reference": "REF-CS-0030"
+  },
+  {
+   "id": 31,
+   "billing_id": 44,
+   "payment_date": "2026-01-04 09:35:00",
+   "amount": 130.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0031"
+  },
+  {
+   "id": 32,
+   "billing_id": 46,
+   "payment_date": "2026-01-04 10:35:00",
+   "amount": 260.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0032"
+  },
+  {
+   "id": 33,
+   "billing_id": 47,
+   "payment_date": "2026-01-04 11:05:00",
+   "amount": 30.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0033"
+  },
+  {
+   "id": 34,
+   "billing_id": 48,
+   "payment_date": "2026-01-04 11:35:00",
+   "amount": 310.0,
+   "method": "Cash",
+   "reference": "REF-CS-0034"
+  },
+  {
+   "id": 35,
+   "billing_id": 50,
+   "payment_date": "2026-01-04 12:35:00",
+   "amount": 170.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0035"
+  },
+  {
+   "id": 36,
+   "billing_id": 51,
+   "payment_date": "2026-01-04 13:05:00",
+   "amount": 100.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0036"
+  },
+  {
+   "id": 37,
+   "billing_id": 53,
+   "payment_date": "2026-01-04 14:05:00",
+   "amount": 290.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0037"
+  },
+  {
+   "id": 38,
+   "billing_id": 55,
+   "payment_date": "2026-01-04 15:05:00",
+   "amount": 180.0,
+   "method": "Cash",
+   "reference": "REF-CS-0038"
+  },
+  {
+   "id": 39,
+   "billing_id": 56,
+   "payment_date": "2026-01-04 15:35:00",
+   "amount": 100.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0039"
+  },
+  {
+   "id": 40,
+   "billing_id": 57,
+   "payment_date": "2026-01-04 16:05:00",
+   "amount": 200.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0040"
+  },
+  {
+   "id": 41,
+   "billing_id": 59,
+   "payment_date": "2026-01-04 17:05:00",
+   "amount": 125.0,
+   "method": "Cash",
+   "reference": "REF-CS-0041"
+  },
+  {
+   "id": 42,
+   "billing_id": 60,
+   "payment_date": "2026-01-04 17:35:00",
+   "amount": 120.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0042"
+  },
+  {
+   "id": 43,
+   "billing_id": 61,
+   "payment_date": "2026-01-05 08:05:00",
+   "amount": 115.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0043"
+  },
+  {
+   "id": 44,
+   "billing_id": 62,
+   "payment_date": "2026-01-05 08:35:00",
+   "amount": 50.0,
+   "method": "Cash",
+   "reference": "REF-CS-0044"
+  },
+  {
+   "id": 45,
+   "billing_id": 64,
+   "payment_date": "2026-01-05 09:35:00",
+   "amount": 135.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0045"
+  },
+  {
+   "id": 46,
+   "billing_id": 66,
+   "payment_date": "2026-01-05 10:35:00",
+   "amount": 265.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0046"
+  },
+  {
+   "id": 47,
+   "billing_id": 67,
+   "payment_date": "2026-01-05 11:05:00",
+   "amount": 30.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0047"
+  },
+  {
+   "id": 48,
+   "billing_id": 68,
+   "payment_date": "2026-01-05 11:35:00",
+   "amount": 315.0,
+   "method": "Cash",
+   "reference": "REF-CS-0048"
+  },
+  {
+   "id": 49,
+   "billing_id": 70,
+   "payment_date": "2026-01-05 12:35:00",
+   "amount": 175.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0049"
+  },
+  {
+   "id": 50,
+   "billing_id": 71,
+   "payment_date": "2026-01-05 13:05:00",
+   "amount": 100.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0050"
+  },
+  {
+   "id": 51,
+   "billing_id": 73,
+   "payment_date": "2026-01-05 14:05:00",
+   "amount": 295.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0051"
+  },
+  {
+   "id": 52,
+   "billing_id": 75,
+   "payment_date": "2026-01-05 15:05:00",
+   "amount": 185.0,
+   "method": "Cash",
+   "reference": "REF-CS-0052"
+  },
+  {
+   "id": 53,
+   "billing_id": 76,
+   "payment_date": "2026-01-05 15:35:00",
+   "amount": 100.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0053"
+  },
+  {
+   "id": 54,
+   "billing_id": 77,
+   "payment_date": "2026-01-05 16:05:00",
+   "amount": 205.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0054"
+  },
+  {
+   "id": 55,
+   "billing_id": 79,
+   "payment_date": "2026-01-05 17:05:00",
+   "amount": 130.0,
+   "method": "Cash",
+   "reference": "REF-CS-0055"
+  },
+  {
+   "id": 56,
+   "billing_id": 80,
+   "payment_date": "2026-01-05 17:35:00",
+   "amount": 120.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0056"
+  },
+  {
+   "id": 57,
+   "billing_id": 81,
+   "payment_date": "2026-01-06 08:05:00",
+   "amount": 120.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0057"
+  },
+  {
+   "id": 58,
+   "billing_id": 82,
+   "payment_date": "2026-01-06 08:35:00",
+   "amount": 50.0,
+   "method": "Cash",
+   "reference": "REF-CS-0058"
+  },
+  {
+   "id": 59,
+   "billing_id": 84,
+   "payment_date": "2026-01-06 09:35:00",
+   "amount": 140.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0059"
+  },
+  {
+   "id": 60,
+   "billing_id": 86,
+   "payment_date": "2026-01-06 10:35:00",
+   "amount": 270.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0060"
+  },
+  {
+   "id": 61,
+   "billing_id": 87,
+   "payment_date": "2026-01-06 11:05:00",
+   "amount": 30.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0061"
+  },
+  {
+   "id": 62,
+   "billing_id": 88,
+   "payment_date": "2026-01-06 11:35:00",
+   "amount": 320.0,
+   "method": "Cash",
+   "reference": "REF-CS-0062"
+  },
+  {
+   "id": 63,
+   "billing_id": 90,
+   "payment_date": "2026-01-06 12:35:00",
+   "amount": 180.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0063"
+  },
+  {
+   "id": 64,
+   "billing_id": 91,
+   "payment_date": "2026-01-06 13:05:00",
+   "amount": 100.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0064"
+  },
+  {
+   "id": 65,
+   "billing_id": 93,
+   "payment_date": "2026-01-06 14:05:00",
+   "amount": 300.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0065"
+  },
+  {
+   "id": 66,
+   "billing_id": 95,
+   "payment_date": "2026-01-06 15:05:00",
+   "amount": 190.0,
+   "method": "Cash",
+   "reference": "REF-CS-0066"
+  },
+  {
+   "id": 67,
+   "billing_id": 96,
+   "payment_date": "2026-01-06 15:35:00",
+   "amount": 100.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0067"
+  },
+  {
+   "id": 68,
+   "billing_id": 97,
+   "payment_date": "2026-01-06 16:05:00",
+   "amount": 210.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0068"
+  },
+  {
+   "id": 69,
+   "billing_id": 99,
+   "payment_date": "2026-01-06 17:05:00",
+   "amount": 135.0,
+   "method": "Cash",
+   "reference": "REF-CS-0069"
+  },
+  {
+   "id": 70,
+   "billing_id": 100,
+   "payment_date": "2026-01-06 17:35:00",
+   "amount": 120.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0070"
+  },
+  {
+   "id": 71,
+   "billing_id": 2,
+   "payment_date": "2026-01-07 09:00:00",
+   "amount": 50.0,
+   "method": "Cash",
+   "reference": "REF-CS-0071"
+  },
+  {
+   "id": 72,
+   "billing_id": 7,
+   "payment_date": "2026-01-07 09:30:00",
+   "amount": 30.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0072"
+  },
+  {
+   "id": 73,
+   "billing_id": 11,
+   "payment_date": "2026-01-07 10:00:00",
+   "amount": 60.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0073"
+  },
+  {
+   "id": 74,
+   "billing_id": 16,
+   "payment_date": "2026-01-07 10:30:00",
+   "amount": 50.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0074"
+  },
+  {
+   "id": 75,
+   "billing_id": 20,
+   "payment_date": "2026-01-07 11:00:00",
+   "amount": 60.0,
+   "method": "Cash",
+   "reference": "REF-CS-0075"
+  },
+  {
+   "id": 76,
+   "billing_id": 22,
+   "payment_date": "2026-01-07 11:30:00",
+   "amount": 55.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0076"
+  },
+  {
+   "id": 77,
+   "billing_id": 27,
+   "payment_date": "2026-01-07 12:00:00",
+   "amount": 35.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0077"
+  },
+  {
+   "id": 78,
+   "billing_id": 31,
+   "payment_date": "2026-01-07 12:30:00",
+   "amount": 65.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0078"
+  },
+  {
+   "id": 79,
+   "billing_id": 36,
+   "payment_date": "2026-01-07 13:00:00",
+   "amount": 55.0,
+   "method": "Cash",
+   "reference": "REF-CS-0079"
+  },
+  {
+   "id": 80,
+   "billing_id": 40,
+   "payment_date": "2026-01-07 13:30:00",
+   "amount": 65.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0080"
+  },
+  {
+   "id": 81,
+   "billing_id": 42,
+   "payment_date": "2026-01-07 14:00:00",
+   "amount": 60.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0081"
+  },
+  {
+   "id": 82,
+   "billing_id": 47,
+   "payment_date": "2026-01-07 14:30:00",
+   "amount": 40.0,
+   "method": "Cash",
+   "reference": "REF-CS-0082"
+  },
+  {
+   "id": 83,
+   "billing_id": 51,
+   "payment_date": "2026-01-07 15:00:00",
+   "amount": 70.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0083"
+  },
+  {
+   "id": 84,
+   "billing_id": 56,
+   "payment_date": "2026-01-07 15:30:00",
+   "amount": 60.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0084"
+  },
+  {
+   "id": 85,
+   "billing_id": 60,
+   "payment_date": "2026-01-07 16:00:00",
+   "amount": 65.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0085"
+  },
+  {
+   "id": 86,
+   "billing_id": 62,
+   "payment_date": "2026-01-07 16:30:00",
+   "amount": 65.0,
+   "method": "Cash",
+   "reference": "REF-CS-0086"
+  },
+  {
+   "id": 87,
+   "billing_id": 67,
+   "payment_date": "2026-01-07 17:00:00",
+   "amount": 45.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0087"
+  },
+  {
+   "id": 88,
+   "billing_id": 71,
+   "payment_date": "2026-01-07 17:30:00",
+   "amount": 70.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0088"
+  },
+  {
+   "id": 89,
+   "billing_id": 76,
+   "payment_date": "2026-01-08 08:00:00",
+   "amount": 65.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0089"
+  },
+  {
+   "id": 90,
+   "billing_id": 80,
+   "payment_date": "2026-01-08 08:30:00",
+   "amount": 70.0,
+   "method": "Cash",
+   "reference": "REF-CS-0090"
+  },
+  {
+   "id": 91,
+   "billing_id": 82,
+   "payment_date": "2026-01-08 09:00:00",
+   "amount": 70.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0091"
+  },
+  {
+   "id": 92,
+   "billing_id": 87,
+   "payment_date": "2026-01-08 09:30:00",
+   "amount": 50.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0092"
+  },
+  {
+   "id": 93,
+   "billing_id": 91,
+   "payment_date": "2026-01-08 10:00:00",
+   "amount": 70.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0093"
+  },
+  {
+   "id": 94,
+   "billing_id": 96,
+   "payment_date": "2026-01-08 10:30:00",
+   "amount": 65.0,
+   "method": "Cash",
+   "reference": "REF-CS-0094"
+  },
+  {
+   "id": 95,
+   "billing_id": 100,
+   "payment_date": "2026-01-08 11:00:00",
+   "amount": 70.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0095"
+  },
+  {
+   "id": 96,
+   "billing_id": 3,
+   "payment_date": "2026-01-08 11:30:00",
+   "amount": 50.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0096"
+  },
+  {
+   "id": 97,
+   "billing_id": 5,
+   "payment_date": "2026-01-08 12:00:00",
+   "amount": 90.0,
+   "method": "Debit Card",
+   "reference": "REF-DC-0097"
+  },
+  {
+   "id": 98,
+   "billing_id": 9,
+   "payment_date": "2026-01-08 12:30:00",
+   "amount": 55.0,
+   "method": "Cash",
+   "reference": "REF-CS-0098"
+  },
+  {
+   "id": 99,
+   "billing_id": 12,
+   "payment_date": "2026-01-08 13:00:00",
+   "amount": 70.0,
+   "method": "Bank Transfer",
+   "reference": "REF-BT-0099"
+  },
+  {
+   "id": 100,
+   "billing_id": 14,
+   "payment_date": "2026-01-08 13:30:00",
+   "amount": 65.0,
+   "method": "Credit Card",
+   "reference": "REF-CC-0100"
+  }
+ ]
+}

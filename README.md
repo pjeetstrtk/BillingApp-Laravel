@@ -1,14 +1,15 @@
 # BillingApp (Laravel 11)
 
-Laravel 11 / PHP 8.3+ / PostgreSQL port of the ASP.NET Core 8 BillingApp:
+Laravel 11 / PHP 8.3+ port (SQLite, MySQL 8 or PostgreSQL) of the ASP.NET Core 8 BillingApp:
 customers, products, invoices with stock tracking, payments, dashboard,
 date-range sales report, and PDF invoices / reports.
 
 ## Requirements
 
-- PHP **8.3+** with `mbstring`, `openssl`, `pdo_pgsql`, `xml`/`dom`, `ctype`, `fileinfo`, `tokenizer` (and `gd` is recommended for dompdf)
+- PHP **8.3+** with `mbstring`, `openssl`, `xml`/`dom`, `ctype`, `fileinfo`, `tokenizer`, `gd` (recommended for dompdf) and the PDO driver for your database:
+  `pdo_sqlite` (default), `pdo_mysql` or `pdo_pgsql`
 - Composer 2
-- PostgreSQL 13+ (tested with 16)
+- Optional database server: MySQL 8.0.x (tested on 8.0.46) or PostgreSQL 13+ (tested on 16). SQLite needs no server.
 
 ## Setup
 
@@ -22,23 +23,49 @@ cp .env.example .env          # Windows: copy .env.example .env
 php artisan key:generate
 ```
 
-Create a database (psql or pgAdmin):
+### Choose a database (in `.env`)
 
+**SQLite (default, nothing to install)** - leave `DB_CONNECTION=sqlite` and do not set `DB_DATABASE`.
+The file `database/database.sqlite` is included (Laravel creates it if missing).
+
+**MySQL 8**
+```sql
+CREATE DATABASE billing_laravel CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=billing_laravel
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+**PostgreSQL**
 ```sql
 CREATE DATABASE billing_laravel;
 ```
+```env
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=billing_laravel
+DB_USERNAME=postgres
+DB_PASSWORD=
+```
 
-Set `DB_USERNAME` / `DB_PASSWORD` in `.env` (defaults: `postgres`, port 5432), then:
+If you switch databases, run `php artisan config:clear` first. "could not find driver" means the
+matching `pdo_*` extension is not enabled in `php.ini`.
+
+Then:
 
 ```bash
-php artisan migrate --seed          # tables + admin user (admin / admin123)
-php artisan db:seed --class=SampleDataSeeder   # optional: the 100-row sample data
-php artisan serve                   # http://localhost:8000
+php artisan migrate --seed                      # tables + admin user (admin / admin123)
+php artisan db:seed --class=SampleDataSeeder    # optional: 100-row sample data (any database)
+php artisan serve                               # http://localhost:8000
 ```
 
 Log in with **admin / admin123** and change the password afterwards.
-
-If you get `could not find driver`, enable `extension=pdo_pgsql` and `extension=pgsql` in `php.ini`.
 
 ### Fake data (Faker)
 
@@ -54,19 +81,22 @@ dev dependency, so `composer install` must not use `--no-dev`.
 ### Backups
 
 - **Backups** page in the sidebar: back up now, download, delete.
-- CLI: `php artisan db:backup` writes a plain-SQL `pg_dump` file to `storage/app/backups`
-  and keeps the newest 14 (`BACKUP_KEEP`).
-- Runs nightly at 02:00 through the scheduler: keep `php artisan schedule:work` running, or add a
-  Task Scheduler / cron job that runs `php artisan schedule:run` every minute.
-- On Windows set `PG_DUMP_PATH` in `.env` to the full path of `pg_dump.exe`
-  (e.g. `C:\Program Files\PostgreSQL\16\bin\pg_dump.exe`); its version must not be older than your server.
-- Restore: `psql -U postgres -d billing_laravel -f storage/app/backups/<file>.sql`
-  (dumps use `--clean --if-exists`, so they can be restored over an existing database).
+- CLI: `php artisan db:backup` keeps the newest 14 (`BACKUP_KEEP`) in `storage/app/backups`.
+  - **SQLite:** consistent copy of the database file (`.sqlite`, `VACUUM INTO`). No extra tools.
+  - **MySQL:** `mysqldump` -> `.sql`. On Windows set `MYSQL_DUMP_PATH` to the full path of `mysqldump.exe`
+    (Laragon: `D:\laragon\bin\mysql\mysql-8.0.33-winx64\bin\mysqldump.exe`).
+  - **PostgreSQL:** `pg_dump` -> `.sql`. On Windows set `PG_DUMP_PATH` (its version must not be older than the server).
+- Nightly at 02:00 via the scheduler: keep `php artisan schedule:work` running, or add a Task Scheduler /
+  cron job running `php artisan schedule:run` every minute.
+- Restore (the Backups page shows the command for your database):
+  SQLite - stop the app and copy the `.sqlite` file over `database/database.sqlite`;
+  MySQL - `mysql -u root -p billing_laravel < file.sql`;
+  PostgreSQL - `psql -U postgres -d billing_laravel -f file.sql`.
 
 ### Tests
 
 ```bash
-php artisan test        # uses in-memory SQLite (needs pdo_sqlite), never touches PostgreSQL
+php artisan test        # uses in-memory SQLite (needs pdo_sqlite), never touches your real database
 ```
 
 ## What changed from the ASP.NET version
@@ -79,7 +109,7 @@ php artisan test        # uses in-memory SQLite (needs pdo_sqlite), never touche
 | Razor views / tag helpers | Blade views (same Bootstrap 5 layout) |
 | QuestPDF | `barryvdh/laravel-dompdf` (Blade templates in `resources/views/pdf`) |
 | `Controllers/*Controller.cs` | `app/Http/Controllers/*Controller.php`, routes in `routes/web.php` |
-| `appsettings.json` connection string (MySQL) | `.env` (`DB_*`) |
+| `appsettings.json` connection string | `.env` (`DB_*`) |
 | Admin seeded at startup | `DatabaseSeeder` |
 
 Columns follow Laravel conventions: `PascalCase` -> `snake_case` (`InvoiceNo` -> `invoice_no`),

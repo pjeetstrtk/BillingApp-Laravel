@@ -10,7 +10,7 @@ class DatabaseBackupCommand extends Command
 {
     protected $signature = 'db:backup';
 
-    protected $description = 'Dump the PostgreSQL database to storage/app/backups (old backups are pruned)';
+    protected $description = 'Back up the database (SQLite file copy, mysqldump or pg_dump) to storage/app/backups; old backups are pruned';
 
     public function handle(DatabaseBackup $backup): int
     {

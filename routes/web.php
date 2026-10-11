@@ -49,9 +49,9 @@ Route::middleware('auth')->group(function () {
     Route::get('billings/{billing}/invoice', [ReportController::class, 'invoice'])->name('invoices.show');
     Route::get('billings/{billing}/invoice/pdf', [ReportController::class, 'downloadInvoice'])->name('invoices.pdf');
 
-    // Database backups (pg_dump)
+    // Database backups
     Route::get('backups', [BackupController::class, 'index'])->name('backups.index');
     Route::post('backups', [BackupController::class, 'store'])->name('backups.store');
-    Route::get('backups/{file}', [BackupController::class, 'download'])->where('file', '[A-Za-z0-9._-]+\.sql')->name('backups.download');
-    Route::delete('backups/{file}', [BackupController::class, 'destroy'])->where('file', '[A-Za-z0-9._-]+\.sql')->name('backups.destroy');
+    Route::get('backups/{file}', [BackupController::class, 'download'])->where('file', '[A-Za-z0-9._-]+\.(sql|sqlite)')->name('backups.download');
+    Route::delete('backups/{file}', [BackupController::class, 'destroy'])->where('file', '[A-Za-z0-9._-]+\.(sql|sqlite)')->name('backups.destroy');
 });

@@ -12,7 +12,10 @@ class BackupController extends Controller
 {
     public function index(DatabaseBackup $backup): View
     {
-        return view('backups.index', ['backups' => $backup->all()]);
+        return view('backups.index', [
+            'backups'     => $backup->all(),
+            'restoreHint' => $backup->restoreHint(),
+        ]);
     }
 
     public function store(DatabaseBackup $backup): RedirectResponse
